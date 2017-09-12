@@ -1,0 +1,42 @@
+body, html {
+	margin: 0 auto;
+	min-height: 100%;
+	height: 100%;
+	overflow-y: auto;
+}
+.body-bg-wrapper {
+	position: relative;
+	height: 100%;
+	background: url('../images/main-bg.png') no-repeat;
+	background-size: 100%;
+	background-position: center;
+	.bg-overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(238, 238, 238, 0.5);
+	}
+}
+.content-container {
+	position: relative;
+	min-height: 100%;
+	z-index: 1;
+}
+.middle-container {
+	position: absolute;
+	margin: auto;
+	top: 50%;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	text-align: center;
+	transform: translateY(-50%);
+}
+.middle-container-inner {
+	display: inline-block;
+	width: auto;
+	background: #fff;
+}
