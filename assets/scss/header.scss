@@ -1,0 +1,83 @@
+.custom-navbar {
+	background: #fff;
+	border-top: 5px solid $primary-blue;
+	border-bottom: 0;
+	.navbar-brand {
+		height: auto;
+		img {
+			width: 234px;
+		}
+	}
+	.navbar-nav {
+		@media(min-width: 768px) {
+			margin-top: 35px;
+		}
+		& > .open > a {
+			background-color: transparent;
+			&:hover, 
+			&:focus {
+				background-color: transparent;
+			}
+		}
+		& > li {
+			& > a {
+				padding-right: 20px;
+				padding-left: 20px;
+				color: $text-color;
+				font-size: 18px;
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+			&.user-menu {
+				a {
+					font-size: 15px;
+					padding-bottom: 0;
+					padding-top: 4px;
+					padding-right: 0;
+					.user-profile-pic {
+						@include border-radius(100%);
+						height: 45px;
+						width: 45px;
+						margin-right: 5px;
+					}
+				}
+			}
+			&.active {
+				a {
+					background-color: transparent;
+					opacity: 0.7;
+					&:hover, 
+					&:focus {
+						background-color: transparent;
+						opacity: 0.7;
+					}
+				}
+			}
+		}
+	}
+}
+.ep-breadcrumbs {
+	background: transparent;
+	padding: 0;
+	margin-bottom: 10px;
+	li {
+		a {
+			color: $text-color;
+			text-decoration: underline;
+			font-weight: 500;
+		}
+		&.active {
+			color: $text-color;
+			font-weight: 500;
+		}
+	}
+	& > li + li:before {
+		content: "\f105";
+		font-family: FontAwesome;
+		color: #000;
+		font-size: 18px;
+		vertical-align: middle;
+		padding: 0 10px;
+	}
+}

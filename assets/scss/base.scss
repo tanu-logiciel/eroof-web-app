@@ -4,6 +4,14 @@ body, html {
 	height: 100%;
 	overflow-y: auto;
 	font-family: 'Roboto', sans-serif;
+	color: #333;
+}
+.text-lead {
+	font-size: 18px;
+	font-weight: 500;
+}
+.extra-spacer {
+	margin-top: 100px;
 }
 .body-bg-wrapper {
 	position: relative;
@@ -67,16 +75,6 @@ body, html {
 		padding: 0 20px;
 		.bottom-border-input {
 			@include bottom-border();
-			/*padding-left: 10px;
-			height: 40px;
-			border-top: none;
-			border-left: none;
-			border-right: none;
-			border-bottom: 1px solid $primary-black;
-			outline: 0;
-			color: $primary-black;
-			width: 100%;
-			font-size: 18px;*/
 			&::-webkit-input-placeholder {
 				color: $primary-black;
 			}
@@ -103,4 +101,57 @@ body, html {
 .login-outer-wrap {
 	padding-top: 30px;
 	padding-bottom: 40px;
+}
+/* main screens ui */
+.body-bg-color {
+	background: #f9f9f9;
+}
+.big-title {
+	font-size: 42px;
+}
+.ep-heading {
+	position: relative;
+	font-weight: 400;
+	margin-bottom: 55px;
+	&:after {
+		position: absolute;
+		content: "";
+		background: $primary-red;
+		height: 3px;
+		width: 100px;
+		bottom: -10px;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+}
+.map-container {
+	img {
+		max-width: 100%;
+	}
+}
+.map-note {
+	font-style: italic;
+	margin-top: 25px;
+	margin-bottom: 60px;
+}
+.order-estimate-module {
+	display: inline-block;
+	padding: 20px 25px;
+	text-align: center;
+	background: $primary-red;
+	color: #fff;
+	span {
+		display: block;
+		font-weight: 300;
+	}
+	.est-title {
+		text-transform: uppercase;
+		font-size: 18px;
+		margin-bottom: 8px;
+	}
+	.est-sub-title {
+		text-transform: capitalize;
+		font-size: 16px;
+	}
 }
