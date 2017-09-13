@@ -8,7 +8,7 @@
 					<div class="row ">
 						<!--Left Section Start- -->
 						<div class="col-sm-5">
-							<div class="left-logo">
+							<div class="signup-logo">
 								<img src="assets/images/Logo.png" class="img-responsive logo-img" alt="logo">
 								<h5>SEAMLESS HANDSHAKE OF HOME OWNERS & ROOFING CONTRACTORS</h5>
 								<div class="left-handshake-img">
