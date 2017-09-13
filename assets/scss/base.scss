@@ -48,6 +48,8 @@ body, html {
 	display: inline-block;
 	width: auto;
 	background: #fff;
+	box-shadow: 0px 0px 6px 0px rgb( 204, 204, 204 );
+	/* Login */
 	.margin0 {
 		margin-left: 0;
 		margin-right: 0;
@@ -63,7 +65,7 @@ body, html {
 	}
 	.input-fields {
 		padding: 0 20px;
-		input[type=text] {
+		input[type=text], input[type=password] {
 			padding-left: 10px;
 			height: 40px;
 			border-top: none;
@@ -83,12 +85,15 @@ body, html {
 		font-size: 16px;
 		padding-top: 25px;
 		color: $primary-black;
+		p {
+			padding-right: 22px;
+		}
 	}
 	.sign-in {
 		margin-top: 30px;
 		background-color: $primary-red;
 		color: $primary-white;
-		border-radius: 0;
+		@include border-radius(0);
 		border-top: 5px solid $primary-blue;
 		width: 301px;
 		font-size: 20px;
