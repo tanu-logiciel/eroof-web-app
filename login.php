@@ -5,32 +5,34 @@
 		<section>
 			<div class="middle-container">
 				<div class="middle-container-inner login-outer-wrap">
-					<div class="row margin0">
-						<div class="col-sm-12 login-form-space">
-							<img src="assets/images/Logo.png" alt="logo">
-						</div>
-					</div>
-					<!-- Input Fields Start- -->
-					<div class="row margin0 fields-wrap">
-						<div class="col-sm-12">
-							<div class="input-fields text-left">
-							<input type="text" class="bottom-border-input form-control" placeholder="Username / Email" />
+					<div class="container-form-outer login-container">
+						<div class="row">
+							<div class="col-sm-12 login-form-space">
+								<img src="assets/images/Logo.png" alt="logo">
 							</div>
 						</div>
-					</div>
-					<div class="row margin0 fields-wrap-pass">
-						<div class="col-sm-12">
-							<div class="input-fields text-left">
-							<input type="Password" class="bottom-border-input form-control" placeholder="Password" />
+						<!-- Input Fields Start- -->
+						<div class="row fields-wrap">
+							<div class="col-sm-12">
+								<div class="input-fields text-left">
+									<input type="text" class="bottom-border-input form-control" placeholder="Username / Email" />
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row margin0">
-						<div class="col-sm-12 forgot-pass text-right">
-							<p>Forgot Password?</p>
+						<div class="row fields-wrap-pass">
+							<div class="col-sm-12">
+								<div class="input-fields text-left">
+									<input type="Password" class="bottom-border-input form-control" placeholder="Password" />
+								</div>
+							</div>
 						</div>
+						<div class="row">
+							<div class="col-sm-12 forgot-pass text-right">
+								<p>Forgot Password?</p>
+							</div>
+						</div>
+						<button type="button" class="btn btn-secondary btn-lg sign-in">Sign In</button>
 					</div>
-					<button type="button" class="btn btn-secondary btn-lg sign-in">Sign In</button>
 				</div>
 				<!-- /Input Fields- -->
 				<p class="outer-line-login">Don't have an account?<span> Sign Up</span></p>
