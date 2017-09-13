@@ -17,7 +17,7 @@
 					</div>
 					</div>
 				</div>
-				<div class="row margin0 fields-wrap">
+				<div class="row margin0 fields-wrap-pass">
 					<div class="col-sm-12">
 					<div class="input-fields text-left">
 						<input type="text" placeholder="Password" />
@@ -31,7 +31,8 @@
 				</div>
 				<button type="button" class="btn btn-secondary btn-lg sign-in">Sign In</button>
 			</div>
-		<p class="outer-line-login">Don't have an account? <span>Sign Up</span></p>
+			<!-- /Input Fields- -->
+			<p class="outer-line-login">Don't have an account?<span> Sign Up</span></p>
 		</div>
 	</div>
 </div>
