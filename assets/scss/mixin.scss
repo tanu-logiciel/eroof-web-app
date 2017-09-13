@@ -4,3 +4,15 @@
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+@mixin bottom-border() {
+	padding-left: 10px;
+	height: 40px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid $primary-black;
+	outline: 0;
+	color: $primary-black;
+	width: 100%;
+	font-size: 18px;
+}

@@ -4,7 +4,12 @@
 		<div class="container content-container">
 			<div class="middle-container">
 				<div class="middle-container-inner">
-					dfgd
+					<div class="left-logo">
+						<img src="assets/images/Logo.png" alt="logo">
+					</div>
+					<div class="right-section">
+						dddd
+					</div>
 				</div>
 			</div>
 		</div>

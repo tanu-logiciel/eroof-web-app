@@ -65,8 +65,9 @@ body, html {
 	}
 	.input-fields {
 		padding: 0 20px;
-		input[type=text], input[type=password] {
-			padding-left: 10px;
+		.bottom-border-input {
+			@include bottom-border();
+			/*padding-left: 10px;
 			height: 40px;
 			border-top: none;
 			border-left: none;
@@ -75,7 +76,7 @@ body, html {
 			outline: 0;
 			color: $primary-black;
 			width: 100%;
-			font-size: 18px;
+			font-size: 18px;*/
 			&::-webkit-input-placeholder {
 				color: $primary-black;
 			}
