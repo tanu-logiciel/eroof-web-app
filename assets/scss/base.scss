@@ -34,9 +34,57 @@ body, html {
 	height: auto;
 	text-align: center;
 	transform: translateY(-50%);
+	p.outer-line-login {
+		font-size: 18px;
+		padding-top: 20px;
+		span {
+			color: $primary-red;
+		}
+	}
 }
 .middle-container-inner {
 	display: inline-block;
 	width: auto;
 	background: #fff;
+	.margin0 {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.login-form-space {
+		padding: 0 40px;
+	}
+	.fields-wrap {
+		margin-top: 35px;
+	}
+	.input-fields {
+		input[type=text] {
+			height: 40px;
+			border-top: none;
+			border-left: none;
+			border-right: none;
+			border-bottom: 2px solid $primary-black;
+			outline: 0;
+			color: $primary-black;
+			width: 100%;
+			font-size: 18px;
+		}
+	}
+	.forgot-pass {
+		font-size: 16px;
+		padding-top: 25px;
+		color: $primary-black;
+	}
+	.sign-in {
+		margin-top: 30px;
+		background-color: $primary-red;
+		color: $primary-white;
+		border-radius: 0;
+		border-top: 5px solid $primary-blue;
+		width: 301px;
+		font-size: 20px;
+	}
+}
+.login-outer-wrap {
+	padding-top: 30px;
+	padding-bottom: 40px;
 }
