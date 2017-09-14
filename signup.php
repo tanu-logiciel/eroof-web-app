@@ -8,8 +8,10 @@
 					<div class="row">
 						<!--Left Section Start- -->
 						<div class="col-sm-5">
-							<div class="left-logo">
+							<div class="signup-logo">
+							<div>
 								<img src="assets/images/Logo.png" class="img-responsive logo-img" alt="logo">
+								</div>
 								<h5>SEAMLESS HANDSHAKE OF HOME OWNERS & ROOFING CONTRACTORS</h5>
 								<div class="handshake-list text-left">
 									<h2>CONTRACTOR</h2>
@@ -52,7 +54,7 @@
 								</div>
 								<!-- Form - -->
 								<div class="form-outer">
-									<div class="row">
+									<div class="row fields-outer-row">
 										<div class="col-sm-6 input-fields">
 											<div class="form-group">
 												<input type="text" class="bottom-border-input form-control" placeholder="Company Name" />
@@ -64,7 +66,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="row">
+									<div class="row fields-outer-row">
 										<div class="col-sm-6 input-fields">
 											<div class="form-group">
 												<input type="text" class="bottom-border-input form-control" placeholder="Owner's First Name" />
@@ -76,21 +78,21 @@
 											</div>
 										</div>
 									</div>
-									<div class="row">
+									<div class="row fields-outer-row">
 										<div class="col-sm-12 input-fields">
 											<div class="form-group">
 												<input type="text" class="bottom-border-input form-control" placeholder="Address" />
 											</div>
 										</div>
 									</div>
-									<div class="row ">
+									<div class="row  fields-outer-row">
 										<div class="col-sm-12 input-fields">
 											<div class="form-group">
 												<input type="text" class="bottom-border-input form-control" placeholder="Address Line 2" />
 											</div>
 										</div>
 									</div>
-									<div class="row">
+									<div class="row fields-outer-row">
 										<div class="col-sm-4 input-fields">
 											<div class="form-group">
 												<input type="text" class="bottom-border-input form-control" placeholder="City" />
@@ -107,7 +109,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="row">
+									<div class="row fields-outer-row">
 										<div class="col-sm-6 input-fields">
 											<div class="form-group">
 												<input type="email" class="bottom-border-input form-control" placeholder="Email" />
