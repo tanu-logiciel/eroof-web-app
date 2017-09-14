@@ -14,24 +14,24 @@
 										<img src="assets/images/Logo.png" class="img-responsive logo-img" alt="logo">
 									</div>
 									<h5>SEAMLESS HANDSHAKE OF HOME OWNERS & ROOFING CONTRACTORS</h5>
-									<div class="handshake-list text-left">
-										<h2>CONTRACTOR</h2>
+									<div class="handshake-list signup-homeowner text-left">
+										<h2>HOME OWNER</h2>
 										<ul>
 											<li>
-												<img src="assets/images/handshake.png" alt="handshake">
-												<p>No wild goose chases</p>
+												<img src="assets/images/handshake-third-image.png" alt="handshake-third-image">
+												<p>Free Roof Measurements</p>
 											</li>
 											<li>
-												<img src="assets/images/handshake.png" alt="handshake">
-												<p>Potential Contract</p>
+												<img src="assets/images/handshake-third-image.png" alt="handshake-third-image">
+												<p>Save Time</p>
 											</li>
 											<li>
-												<img src="assets/images/handshake.png" alt="handshake">
-												<p>Accurate Measurements</p>
+												<img src="assets/images/handshake-third-image.png" alt="handshake-third-image">
+												<p>Local Results</p>
 											</li>
 											<li>
-												<img src="assets/images/handshake.png" alt="handshake">
-												<p>Higher Yields</p>
+												<img src="assets/images/handshake-third-image.png" alt="handshake-third-image">
+												<p>No Annoying Sales Calls</p>
 											</li>
 										</ul>
 									</div>
@@ -55,29 +55,24 @@
 											</div> 
 										</div>
 									</div>
-									<!-- Form - -->
+									<!-- Form- -->
 									<div class="form-outer">
 										<div class="row fields-outer-row">
 											<div class="col-sm-6 input-fields">
 												<div class="form-group">
-													<input type="text" class="bottom-border-input form-control" placeholder="Company Name" />
+													<input type="text" class="bottom-border-input form-control" placeholder="First Name" />
 												</div>
 											</div>
 											<div class="col-sm-6 input-fields">
 												<div class="form-group">
-													<input type="number" class="bottom-border-input form-control" placeholder="Contact No" />
+													<input type="text" class="bottom-border-input form-control" placeholder="Last Name" />
 												</div>
 											</div>
 										</div>
 										<div class="row fields-outer-row">
-											<div class="col-sm-6 input-fields">
+											<div class="col-sm-12 input-fields">
 												<div class="form-group">
-													<input type="text" class="bottom-border-input form-control" placeholder="Owner's First Name" />
-												</div>
-											</div>
-											<div class="col-sm-6 input-fields">
-												<div class="form-group">
-													<input type="text" class="bottom-border-input form-control" placeholder="Owner's Last Name" />
+													<input type="number" class="bottom-border-input form-control" placeholder="Contact No" />
 												</div>
 											</div>
 										</div>

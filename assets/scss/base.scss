@@ -87,10 +87,13 @@ body, html {
 		
 		.forgot-pass {
 			font-size: 16px;
-			padding-top: 25px;
+			/*padding-top: 25px;*/
 			color: $primary-black;
 			p {
-				padding-right: 22px;
+				/*padding-right: 22px;*/
+				margin: 0;
+				padding-bottom: 11px;
+				padding-top: 15px;
 			}
 		}
 		/* Sign-up */
@@ -140,7 +143,7 @@ body, html {
 			}
 		}
 		.right-section {
-			background-color: #f9f9f9;
+			background-color: #f5f5f5;
 			.right-account-section {
 				padding-top: 35px;
 				padding-bottom: 40px;
@@ -234,6 +237,13 @@ body, html {
 	padding-left: 0;
 	padding-right: 0;
 	width: 100%;
+	min-height: 533px;
+}
+/* Signup HomeOwners */
+.middle-container-inner .container-form-outer .signup-logo .signup-homeowner {
+	h2 {
+		color: $primary-blue;
+	}
 }
 /* main screens ui */
 .body-bg-color {
