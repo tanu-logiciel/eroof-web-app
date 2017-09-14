@@ -84,14 +84,7 @@ body, html {
 		.fields-wrap-pass {
 			padding-top: 30px;
 		}
-		.input-fields {
-			.bottom-border-input {
-				@include bottom-border();
-				&::-webkit-input-placeholder {
-					color: $primary-black;
-				}
-			}
-		}
+		
 		.forgot-pass {
 			font-size: 16px;
 			padding-top: 25px;
@@ -213,10 +206,23 @@ body, html {
 			}
 		}
 	}
+	.login-container {
+		width: 100%;
+	}
 }
 .login-outer-wrap {
 	padding-top: 30px;
 	padding-bottom: 40px;
+	min-width: 0;
+	max-width: unset;
+}
+.input-fields {
+	.bottom-border-input {
+		@include bottom-border();
+		&::-webkit-input-placeholder {
+			color: $primary-black;
+		}
+	}
 }
 /* main screens ui */
 .body-bg-color {
