@@ -51,8 +51,14 @@ a,
 		padding-top: 20px;
 		font-size: 17px;
 		color: $primary-black;
-		span {
+		a {
+			text-decoration: none;
 			color: $primary-red;
+			span {
+			}
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 }
@@ -91,11 +97,15 @@ a,
 		
 		.forgot-pass {
 			font-size: 15px;
-			color: $primary-black;
-			p {
-				margin: 0;
-				padding-bottom: 25px;
-				padding-top: 20px;
+			a {
+				text-decoration: none;
+				color: $primary-black;;
+				p {
+					/*padding-right: 22px;*/
+					margin: 0;
+					padding-bottom: 25px;
+					padding-top: 20px;
+				}
 			}
 		}
 		/* Sign-up */

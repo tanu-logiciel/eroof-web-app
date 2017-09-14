@@ -28,14 +28,14 @@
 						</div>
 						<div class="row">
 							<div class="col-sm-12 forgot-pass text-right">
-								<p>Forgot Password?</p>
+								<a href="#"><p>Forgot Password?</p></a>
 							</div>
 						</div>
 						<button type="button" class="btn btn-secondary btn-lg btn-big btn-red custom-btn sign-in">Sign In</button>
 					</div>
 				</div>
 				<!-- /Form- -->
-				<p class="outer-line-login">Don't have an account?<span> Sign Up</span></p>
+				<p class="outer-line-login">Don't have an account? <a href="signup.php">Sign Up</a></p>
 			</div>
 		</section>
 	</div>
