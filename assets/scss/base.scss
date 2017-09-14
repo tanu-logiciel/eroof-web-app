@@ -410,8 +410,9 @@ body, html {
 }
 /* My Estimates */
 .ep-estimate-col {
-	background: #fff;
+	margin-bottom: 15px;
 	padding: 15px;
+	background: #fff;
 	font-weight: 500;
 	font-size: 15px;
 	line-height: 1.54;
@@ -461,6 +462,9 @@ body, html {
 	}
 	&.label-report-ready {
 		background: $primary-blue;
+	}
+	&.label-report-awaited {
+		background: $primary-red;
 	}
 }
 /* Eagleview Order */
