@@ -291,8 +291,35 @@ body, html {
 }
 /* Eagleview Order */
 .ep-bottom-banner {
-	margin-top: 20px;
+	margin-top: 15px;
 	padding: 20px;
 	background: #fff;
 	color: $text-color;
+}
+.custom-btn {
+	min-width: 190px;
+	text-transform: capitalize;
+	border: 0;
+	border-top: 3px solid $primary-blue;
+	border-radius: 0;
+	text-align: center;
+	color: #fff;
+	font-weight: 300;
+	font-size: 16px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	&:hover,
+	&:focus {
+		opacity: 0.8;
+		color: #fff;
+	}
+}
+.btn-red {
+	background: $primary-red;
+}
+.btn-gray {
+	background: #5f5f5f;
+}
+.btn-big {
+	min-width: 240px;
 }
