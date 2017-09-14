@@ -46,7 +46,7 @@
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-ready">Report Ready</span>
+					<span class="btn estimate-label label-report-awaited">Report Ready</span>
 				</div>
 			</div>
 		</div>

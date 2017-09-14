@@ -410,6 +410,9 @@ body, html {
 	&.label-report-ready {
 		background: $primary-blue;
 	}
+	&.label-report-awaited {
+		background: $primary-red;
+	}
 }
 @media(max-width: 767px) {
 	.banner-btn {
