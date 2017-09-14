@@ -354,9 +354,10 @@ body, html {
 	}
 }
 .map-note {
-	font-style: italic;
 	margin-top: 25px;
 	margin-bottom: 60px;
+	font-style: italic;
+	font-size: 17px;
 }
 .order-estimate-module {
 	display: inline-block;
@@ -415,31 +416,41 @@ body, html {
 	background: #fff;
 	font-weight: 500;
 	font-size: 15px;
-	line-height: 1.54;
 	@include box-shadow(0px 0px 6px 0px #ccc);
 	.estimate-info {
 		p {
+			line-height: 1.54;
 			margin-bottom: 0;
 		}
 	}
 	.estimate-address {
 		position: relative;
-		padding-right: 120px;
+		padding-right: 100px;
+		margin-top: 10px;
 		.estimate-label {
 			position: absolute;
 			right: 0;
 			bottom: 0;
 		}
 		.address-panel {
-			padding-left: 20px;
+			padding-left: 25px;
 			display: block;
+		}
+		.location-icon {
+			vertical-align: middle;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			font-size: 25px;
+			color: #666;
+			@include translate(translateY(-50%));
 		}
 	}
 	.report-awaited-text {
 		position: relative;
 		padding-left: 60px;
-		margin-top: 11px;
-		margin-bottom: 12px;
+		margin-top: 19px;
+		margin-bottom: 20px;
 		img {
 			float: left;
 			margin-right: 10px;
@@ -447,7 +458,7 @@ body, html {
 			position: absolute;
 			left: 0;
 			top: 50%;
-			transform: translateY(-50%);
+			@include translate(translateY(-50%));
 		}		
 		span {
 			display: block;
@@ -455,11 +466,11 @@ body, html {
 	}
 }
 .estimate-label {
+	padding: 5px 8px;
 	border-radius: 0;
 	border: 0;
 	color: #fff;
 	font-weight: 300;
-	min-width: 110px;
 	text-align: center;
 	&:hover {
 		color: #fff;
@@ -498,10 +509,6 @@ body, html {
 	.address {
 		font-weight: 400;
 	}
-}
-.location-icon {
-	vertical-align: middle;
-	float: left;
 }
 @media(max-width: 767px) {
 	.banner-btn {

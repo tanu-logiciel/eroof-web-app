@@ -29,7 +29,7 @@
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-ready">Report Ready</span>
+					<span class="label estimate-label label-report-ready">Report Ready</span>
 				</div>
 			</div>
 		</div>
@@ -44,10 +44,11 @@
 					</div>
 				</div>
 				<div class="estimate-address">
+					<i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-awaited">Report Awaited</span>
+					<span class="label estimate-label label-report-awaited">Report Awaited</span>
 				</div>
 			</div>
 		</div>
@@ -62,10 +63,11 @@
 					</div>
 				</div>
 				<div class="estimate-address">
+					<i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-awaited">Report Awaited</span>
+					<span class="label estimate-label label-report-awaited">Report Awaited</span>
 				</div>
 			</div>
 		</div>
@@ -80,10 +82,11 @@
 					</div>
 				</div>
 				<div class="estimate-address">
+					<i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-awaited">Report Awaited</span>
+					<span class="label estimate-label label-report-awaited">Report Awaited</span>
 				</div>
 			</div>
 		</div>
@@ -105,10 +108,11 @@
 					</p>
 				</div>
 				<div class="estimate-address">
+					<i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-ready">Report Ready</span>
+					<span class="label estimate-label label-report-ready">Report Ready</span>
 				</div>
 			</div>
 		</div>
@@ -130,10 +134,11 @@
 					</p>
 				</div>
 				<div class="estimate-address">
+					<i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-ready">Report Ready</span>
+					<span class="label estimate-label label-report-ready">Report Ready</span>
 				</div>
 			</div>
 		</div>
@@ -155,10 +160,11 @@
 					</p>
 				</div>
 				<div class="estimate-address">
+					<i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-ready">Report Ready</span>
+					<span class="label estimate-label label-report-ready">Report Ready</span>
 				</div>
 			</div>
 		</div>
@@ -173,10 +179,11 @@
 					</div>
 				</div>
 				<div class="estimate-address">
+					<i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-awaited">Report Awaited</span>
+					<span class="label estimate-label label-report-awaited">Report Awaited</span>
 				</div>
 			</div>
 		</div>
@@ -191,10 +198,11 @@
 					</div>
 				</div>
 				<div class="estimate-address">
+					<i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>
-					<span class="btn estimate-label label-report-awaited">Report Awaited</span>
+					<span class="label estimate-label label-report-awaited">Report Awaited</span>
 				</div>
 			</div>
 		</div>
