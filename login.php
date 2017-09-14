@@ -11,7 +11,7 @@
 								<img src="assets/images/Logo.png" alt="logo">
 							</div>
 						</div>
-						<!-- Input Fields Start- -->
+						<!-- Form Start- -->
 						<div class="row fields-wrap">
 							<div class="col-sm-12">
 								<div class="input-fields text-left">
@@ -34,7 +34,7 @@
 						<button type="button" class="btn btn-secondary btn-lg sign-in">Sign In</button>
 					</div>
 				</div>
-				<!-- /Input Fields- -->
+				<!-- /Form- -->
 				<p class="outer-line-login">Don't have an account?<span> Sign Up</span></p>
 			</div>
 		</section>

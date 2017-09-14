@@ -93,15 +93,6 @@ body, html {
 				padding-right: 22px;
 			}
 		}
-		.sign-in {
-			margin-top: 20px;
-			background-color: $primary-red;
-			color: $primary-white;
-			@include border-radius(0);
-			border-top: 5px solid $primary-blue;
-			width: 301px;
-			font-size: 20px;
-		}
 		/* Sign-up */
 		.signup-logo {
 			padding-top: 35px;
@@ -148,69 +139,72 @@ body, html {
 				}
 			}
 		}
-		.right-account-section {
-			padding-top: 35px;
-			padding-bottom: 40px;
-			.form-outer {
-				padding-top: 20px;
-				.fields-outer-row {
-					padding-bottom: 6px;
+		.right-section {
+			background-color: #f9f9f9;
+			.right-account-section {
+				padding-top: 35px;
+				padding-bottom: 40px;
+				.form-outer {
+					padding-top: 20px;
+					.fields-outer-row {
+						padding-bottom: 6px;
+					}
 				}
-			}
-			.user-account {
-				display: inline-block;
-				&:nth-child(1) {
-					vertical-align: middle;
-				}
-				h2 {
-					margin: 0;
-					font-size: 24px;
-					font-weight: 400;
-				}
-				h6 {
-					margin-top: 0;
-					font-size: 14px;
-					a {
-						text-decoration: none;
-						span {
-							color: $primary-red;
-							font-size: 14px;
-							border-bottom: 1px solid $primary-red;
+				.user-account {
+					display: inline-block;
+					&:nth-child(1) {
+						vertical-align: middle;
+					}
+					h2 {
+						margin: 0;
+						font-size: 24px;
+						font-weight: 400;
+					}
+					h6 {
+						margin-top: 6px;
+						font-size: 14px;
+						a {
+							text-decoration: none;
+							span {
+								color: $primary-red;
+								font-size: 14px;
+								border-bottom: 1px solid $primary-red;
+							}
 						}
 					}
 				}
-			}
-			/* signup-option */
-			.large-blue-btn {
-				box-shadow: 0px 0px 6px 0px #ccc;
-				border-radius: 0;
-				background-color: $primary-blue;
-				color: $primary-white;
-				font-size: 30px;
-				min-width: 360px;
-				/*height: 140px;*/
-			}
-			.button-outer {
-				padding-top: 65px;
-				.btn-lg {
-					padding: 0;
-				}
-				.button-inner-wrap {
-					padding: 35px 0 35px 0;
-					.signup-icon {
-						font-size: 40px;
-					}
-					span {
-						padding-left: 15px;
-					}
-				}
-				.large-red-btn {
+				/* signup-option */
+				.large-blue-btn {
 					box-shadow: 0px 0px 6px 0px #ccc;
 					border-radius: 0;
-					background-color: $primary-red;
+					background-color: $primary-blue;
 					color: $primary-white;
 					font-size: 30px;
 					min-width: 360px;
+					/*height: 140px;*/
+				}
+				.button-outer {
+					padding-top: 65px;
+					.btn-lg {
+						padding: 0;
+					}
+					.button-inner-wrap {
+						padding: 35px 0 35px 0;
+						.signup-icon {
+							font-size: 40px;
+						}
+						span {
+							padding-left: 15px;
+						}
+					}
+					.large-red-btn {
+						box-shadow: 0px 0px 6px 0px #ccc;
+						border-radius: 0;
+						background-color: $primary-red;
+						color: $primary-white;
+						font-size: 30px;
+						min-width: 360px;
+					}
 				}
 			}
 		}
