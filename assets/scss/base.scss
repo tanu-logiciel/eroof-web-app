@@ -248,13 +248,18 @@ body, html {
 /* Proposals */
 .image-section-outer {
 	position: relative;
-	img {
-		opacity: 0.7;
+	.image-overlay {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(255, 255, 255, 0.4);
 	}
 	.designer-outer-text {
 		display: inline-block;
 		position: absolute;
-		left: 20px;
+		left: 15px;
 		top: 20px;
 		color: $primary-white;
 		text-transform: uppercase;
@@ -271,24 +276,53 @@ body, html {
 			}
 		}
 	}
+	.designer-better-text p span {
+		&:nth-child(1) {
+			background-color: $primary-blue;
+		}
+	}
+	.designer-good-text p span {
+		&:nth-child(1) {
+			background-color: $orange-color;
+		}
+	}
 	.designer-outer-icon {
 		display: inline-block;
 		position: absolute;
 		top: 11px;
-		right: 15px;
+		right: 11px;
 		color: $primary-white;
+		.check-icon {
+			max-width: 25px;
+		}
 	}
-	.image-section-inner {
+	.image-section-bottom {
 		position: absolute;
 		bottom: 14px;
+		left: 15px;
+		p {
+			margin: 0;
+			color: $primary-white;
+			font-size: 14px;
+		}
 	}
 	.price-outer {
 		position: absolute;
 		right: 11px;
 		bottom: 5px;
 		p {
+			font-size: 18px;
 			color: $primary-white; 
 		}
+	}
+}
+.specifications {
+	h2 {
+		font-weight: 400;
+	}
+	p {
+		font-size: 15px;
+		color: $primary-black;
 	}
 }
 /* main screens ui */
@@ -374,7 +408,6 @@ body, html {
 .btn-big {
 	min-width: 240px;
 }
-
 /* My Estimates */
 .ep-estimate-col {
 	background: #fff;
