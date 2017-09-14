@@ -160,7 +160,6 @@ body, html {
 			.user-account {
 				display: inline-block;
 				&:nth-child(1) {
-					float: right;
 					vertical-align: middle;
 				}
 				h2 {
@@ -171,10 +170,13 @@ body, html {
 				h6 {
 					margin-top: 0;
 					font-size: 14px;
-					span {
-						color: $primary-red;
-						font-size: 14px;
-						border-bottom: 1px solid $primary-red;
+					a {
+						text-decoration: none;
+						span {
+							color: $primary-red;
+							font-size: 14px;
+							border-bottom: 1px solid $primary-red;
+						}
 					}
 				}
 			}
@@ -194,7 +196,10 @@ body, html {
 					padding: 0;
 				}
 				.button-inner-wrap {
-					padding: 50px 0 50px 0;
+					padding: 35px 0 35px 0;
+					.signup-icon {
+						font-size: 40px;
+					}
 					span {
 						padding-left: 15px;
 					}
@@ -208,6 +213,9 @@ body, html {
 					min-width: 360px;
 				}
 			}
+		}
+		.buttons-outer-wrap {
+			padding-bottom: 90px;
 		}
 	}
 	.login-container {

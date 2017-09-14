@@ -46,9 +46,9 @@
 										</div>
 
 									</div>
-									<div class="col-sm-6">
+									<div class="col-sm-6 text-right">
 										<div class="user-account">
-											<h6>Already a user? <span> Sign In</span></h6>
+											<h6>Already a user? <a href="#"><span> Sign In</span></a></h6>
 										</div> 
 									</div>
 								</div>

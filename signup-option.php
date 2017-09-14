@@ -18,13 +18,13 @@
 						</div>
 						<!--/Left Section- -->
 						<div class="right-section col-sm-7">
-							<div class="right-account-section">
+							<div class="right-account-section buttons-outer-wrap">
 								<div class="row">
 									<div class="col-sm-6">
 									</div>
-									<div class="col-sm-6">
+									<div class="col-sm-6 text-right">
 										<div class="user-account">
-											<h6>Already a user? <span> Sign In</span></h6>
+											<h6>Already a user? <a href="#"><span> Sign In</span></a></h6>
 										</div> 
 									</div>
 								</div>
@@ -32,7 +32,7 @@
 								<div class="button-outer">
 									<a href="#" class="btn large-blue-btn btn-lg">
 										<div class="button-inner-wrap">
-											<i class="fa fa-home" aria-hidden="true"></i>
+											<i class="fa fa-home signup-icon" aria-hidden="true"></i>
 											<span>I am a Home Owner</span> 
 										</div>
 									</a>
@@ -40,7 +40,7 @@
 								<div class="button-outer">
 									<a href="#" class="btn large-red-btn btn-lg">
 										<div class="button-inner-wrap">
-											<i class="fa fa-home" aria-hidden="true"></i>
+											<i class="fa fa-home signup-icon" aria-hidden="true"></i>
 											<span>I am a Contractor</span> 
 										</div>
 									</a>
