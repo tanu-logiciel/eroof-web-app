@@ -124,7 +124,7 @@
 												</div>
 											</div>
 										</div>
-										<button type="button" class="btn btn-secondary btn-lg sign-in btn-red custom-btn">Sign In</button>
+										<button type="button" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big">Sign In</button>
 									</div>
 									<!--/Form- -->
 								</div>

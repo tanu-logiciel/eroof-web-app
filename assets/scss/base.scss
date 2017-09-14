@@ -87,10 +87,13 @@ body, html {
 		
 		.forgot-pass {
 			font-size: 16px;
-			padding-top: 25px;
+			/*padding-top: 25px;*/
 			color: $primary-black;
 			p {
-				padding-right: 22px;
+				/*padding-right: 22px;*/
+				margin: 0;
+				padding-bottom: 11px;
+				padding-top: 15px;
 			}
 		}
 		/* Sign-up */
@@ -234,6 +237,7 @@ body, html {
 	padding-left: 0;
 	padding-right: 0;
 	width: 100%;
+	min-height: 533px;
 }
 /* main screens ui */
 .body-bg-color {
