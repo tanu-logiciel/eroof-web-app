@@ -19,12 +19,14 @@
 				<div class="row">
 					<div class="col-md-8 col-sm-7">
 						<div class="banner-text">
-							<h4>Location</h4>
+							<h4 class="banner-title">Location</h4>
 							<span class="address">1801 Mullikin Dr, Champaign, IL 61822</span>
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-5 text-center">
-						<a href="" class="btn custom-btn btn-red btn-big">Request roof estimate</a>
+						<div class="banner-btn">
+							<a href="" class="btn custom-btn btn-red btn-big">Request roof estimate</a>
+						</div>
 					</div>
 				</div>
 			</div>
