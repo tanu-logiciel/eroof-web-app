@@ -6,6 +6,10 @@ body, html {
 	font-family: 'Roboto', sans-serif;
 	color: #333;
 }
+a,
+.btn {
+	@include transition(0.2s ease-in-out);
+}
 .text-lead {
 	font-size: 18px;
 	font-weight: 500;
@@ -87,10 +91,8 @@ body, html {
 		
 		.forgot-pass {
 			font-size: 15px;
-			/*padding-top: 25px;*/
 			color: $primary-black;
 			p {
-				/*padding-right: 22px;*/
 				margin: 0;
 				padding-bottom: 25px;
 				padding-top: 20px;
@@ -355,7 +357,7 @@ body, html {
 		background: $primary-red;
 		height: 3px;
 		width: 100px;
-		bottom: -10px;
+		bottom: -12px;
 		left: 0;
 		right: 0;
 		margin: auto;
@@ -391,6 +393,12 @@ body, html {
 		text-transform: capitalize;
 		font-size: 16px;
 	}
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: #fff;
+		background: lighten($primary-red, 5%);
+	}
 }
 .custom-btn {
 	min-width: 160px;
@@ -410,16 +418,21 @@ body, html {
 	&:focus {
 		color: #fff;
 		outline: 0;
-		background-color: #c72202;
-		transition: 0.2s ease-in-out;
-		 -webkit-transition: 0.2s ease-in-out;
 	}
 }
 .btn-red {
 	background: $primary-red;
+	&:hover,
+	&:focus {
+		background: lighten($primary-red, 5%);
+	}
 }
 .btn-gray {
-	background: #5f5f5f;
+	background: $btn-secondary;
+	&:hover,
+	&:focus {
+		background: lighten($btn-secondary, 5%);
+	}
 }
 .btn-big {
 	min-width: 240px;
@@ -516,9 +529,10 @@ body, html {
 }
 .banner-text {
 	display: inline-block;
+	line-height: 1.67;
 	.banner-title {
 		font-weight: 600;
-		margin-bottom: 3px;
+		margin-bottom: 8px;
 		margin-top: 0;
 	}
 	.address {

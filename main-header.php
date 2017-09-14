@@ -10,13 +10,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img alt="Brand" src="assets/images/Logo.png"></a>
+                <a class="navbar-brand" href="index.php"><img alt="Brand" src="assets/images/Logo.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">My Estimates</a></li>
+                    <li><a href="my-estimates.php">My Estimates</a></li>
                     <li><a href="#">Profile</a></li>
                     <li class="dropdown user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="assets/images/profile.png" alt="Profile Pic" class="user-profile-pic"> Test data <span class="caret"></span></a>
@@ -37,7 +37,7 @@
     <div class="ep-content-container">
         <div class="container">
             <ol class="breadcrumb ep-breadcrumbs">
-                <li><a href="#">Home</a></li>
+                <li><a href="welcome.php">Home</a></li>
                 <li class="active">Eagleview Order</li>        
             </ol>
             

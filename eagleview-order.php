@@ -25,7 +25,7 @@
 					</div>
 					<div class="col-md-4 col-sm-5 text-center banner-col">
 						<div class="banner-btn">
-							<a href="" class="btn custom-btn btn-red btn-big">Request roof estimate</a>
+							<a href="roof-measurements.php" class="btn custom-btn btn-red btn-big">Request roof estimate</a>
 						</div>
 					</div>
 				</div>

@@ -51,7 +51,7 @@
 										</div>
 										<div class="col-sm-6 text-right">
 											<div class="user-account">
-												<h6>Already a user? <a href="#"><span> Sign In</span></a></h6>
+												<h6>Already a user? <a href="index.php"><span> Sign In</span></a></h6>
 											</div> 
 										</div>
 									</div>
@@ -124,7 +124,7 @@
 												</div>
 											</div>
 										</div>
-										<button type="button" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big">Sign In</button>
+										<a href="welcome.php" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big">Sign Up</a>
 									</div>
 									<!--/Form- -->
 								</div>

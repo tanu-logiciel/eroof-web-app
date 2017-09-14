@@ -16,6 +16,12 @@
       -ms-transform: $translate;
           transform: $translate;
 }
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+      -ms-transition: $transition;
+          transition: $transition;
+}
 @mixin bottom-border() {
 	padding-left: 10px;
 	height: 40px;

@@ -12,10 +12,10 @@
 				<img src="assets/images/map.jpg" alt="map">
 			</div>
 			<p class="map-note text-center text-lead">Note - Kindly drag the pin to right location before you place the estimate order</p>
-			<div class="order-estimate-module">
+			<a href="eagleview-order.php" class="order-estimate-module">
 				<span class="est-title">order free eagleview estimate</span>
 				<span class="est-sub-title">Estimate from satellite images</span>
-			</div>
+			</a>
 			<div class="extra-spacer"></div>
 		</div>
 	</div>
