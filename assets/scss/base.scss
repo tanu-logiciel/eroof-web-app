@@ -284,7 +284,7 @@ body, html {
 	}
 }
 .custom-btn {
-	min-width: 190px;
+	min-width: 160px;
 	text-transform: capitalize;
 	border: 0;
 	border-top: 4px solid $primary-blue;
@@ -295,10 +295,13 @@ body, html {
 	font-size: 16px;
 	padding-top: 7px;
 	padding-bottom: 7px;
+	outline: 0;
+	margin: 5px;
 	&:hover,
 	&:focus {
 		opacity: 0.8;
 		color: #fff;
+		outline: 0;
 	}
 }
 .btn-red {
@@ -313,11 +316,22 @@ body, html {
 /* Eagleview Order */
 .ep-bottom-banner {
 	margin-top: 15px;
-	padding: 35px 15px;
+	padding: 15px;
 	background: #fff;
 	color: $text-color;
+	.ep-banner-wrap {
+		display: table;
+		min-height: 85px;
+		width: 100%;
+		.banner-col {
+			display: table-cell;
+			float: none;
+			vertical-align: middle;
+		}
+	}
 }
 .banner-text {
+	display: inline-block;
 	.banner-title {
 		font-weight: 600;
 		margin-bottom: 3px;
@@ -330,5 +344,13 @@ body, html {
 @media(max-width: 767px) {
 	.banner-btn {
 		margin-top: 15px;
+	}
+	.ep-bottom-banner {
+		.ep-banner-wrap {
+			display: block;
+			.banner-col {
+				display: block;
+			}
+		}
 	}
 }

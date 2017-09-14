@@ -3,7 +3,7 @@
 
 	<div class="row">
 		<div class="col-md-12 col-sm-12 text-center">
-			<h1 class="ep-heading">Eagleview Order</h1>
+			<h1 class="ep-heading">Roof Measurements</h1>
 		</div>
 	</div>
 	<div class="row">
@@ -17,15 +17,24 @@
 		<div class="col-md-12">
 			<div class="ep-bottom-banner">
 				<div class="row ep-banner-wrap">
-					<div class="col-md-8 col-sm-7 banner-col">
+					<div class="col-md-7 col-sm-6 banner-col">
 						<div class="banner-text">
 							<h4 class="banner-title">Location</h4>
 							<span class="address">1801 Mullikin Dr, Champaign, IL 61822</span>
+							<div class="location-area">
+								<span>Squares</span>
+								<span class="pull-right">49</span>
+							</div>
+							<div class="location-area">
+								<span>Predominant Pitch</span>
+								<span class="pull-right">49</span>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-5 text-center banner-col">
+					<div class="col-md-5 col-sm-6 text-center banner-col">
 						<div class="banner-btn">
-							<a href="" class="btn custom-btn btn-red btn-big">Request roof estimate</a>
+							<a href="" class="btn custom-btn btn-gray">Report(s)</a>
+							<a href="" class="btn custom-btn btn-red">Proposals</a>
 						</div>
 					</div>
 				</div>
