@@ -45,7 +45,7 @@ body, html {
 	transform: translateY(-50%);
 	p.outer-line-login {
 		padding-top: 20px;
-		font-size: 18px;
+		font-size: 16px;
 		color: $primary-black;
 		span {
 			color: $primary-red;
@@ -245,6 +245,52 @@ body, html {
 		color: $primary-blue;
 	}
 }
+/* Proposals */
+.image-section-outer {
+	position: relative;
+	img {
+		opacity: 0.7;
+	}
+	.designer-outer-text {
+		display: inline-block;
+		position: absolute;
+		left: 20px;
+		top: 20px;
+		color: $primary-white;
+		text-transform: uppercase;
+		p {
+			span {
+				&:nth-child(1) {
+					padding: 2px 6px;
+					background-color: $best-green-color;
+				}
+				&:nth-child(2) {
+					font-weight: 500;
+					color: $primary-black;
+				}
+			}
+		}
+	}
+	.designer-outer-icon {
+		display: inline-block;
+		position: absolute;
+		top: 11px;
+		right: 15px;
+		color: $primary-white;
+	}
+	.image-section-inner {
+		position: absolute;
+		bottom: 14px;
+	}
+	.price-outer {
+		position: absolute;
+		right: 11px;
+		bottom: 5px;
+		p {
+			color: $primary-white; 
+		}
+	}
+}
 /* main screens ui */
 .body-bg-color {
 	background: #f9f9f9;
@@ -328,34 +374,7 @@ body, html {
 .btn-big {
 	min-width: 240px;
 }
-/* Eagleview Order */
-.ep-bottom-banner {
-	margin-top: 15px;
-	padding: 15px;
-	background: #fff;
-	color: $text-color;
-	.ep-banner-wrap {
-		display: table;
-		min-height: 85px;
-		width: 100%;
-		.banner-col {
-			display: table-cell;
-			float: none;
-			vertical-align: middle;
-		}
-	}
-}
-.banner-text {
-	display: inline-block;
-	.banner-title {
-		font-weight: 600;
-		margin-bottom: 3px;
-		margin-top: 0;
-	}
-	.address {
-		font-weight: 400;
-	}
-}
+
 /* My Estimates */
 .ep-estimate-col {
 	background: #fff;
@@ -387,10 +406,10 @@ body, html {
 			float: left;
 			margin-right: 10px;
 			height: 50px;
-		    position: absolute;
-		    left: 0;
-		    top: 50%;
-		    transform: translateY(-50%);
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
 		}		
 		span {
 			display: block;
@@ -412,6 +431,34 @@ body, html {
 	}
 	&.label-report-awaited {
 		background: $primary-red;
+	}
+}
+/* Eagleview Order */
+.ep-bottom-banner {
+	margin-top: 15px;
+	padding: 15px;
+	background: #fff;
+	color: $text-color;
+	.ep-banner-wrap {
+		display: table;
+		min-height: 85px;
+		width: 100%;
+		.banner-col {
+			display: table-cell;
+			float: none;
+			vertical-align: middle;
+		}
+	}
+}
+.banner-text {
+	display: inline-block;
+	.banner-title {
+		font-weight: 600;
+		margin-bottom: 3px;
+		margin-top: 0;
+	}
+	.address {
+		font-weight: 400;
 	}
 }
 @media(max-width: 767px) {
