@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>ERoofPro</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- CSS -->
-        <?php include('styles.php'); ?>
-    </head>
-    <body class="body-bg-color">
+    <div class="body-bg-color">
         <!-- Header -->
         <nav class="navbar navbar-default custom-navbar">
             <div class="container">
