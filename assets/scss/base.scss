@@ -49,55 +49,161 @@ body, html {
 	width: auto;
 	background: #fff;
 	box-shadow: 0px 0px 6px 0px rgb( 204, 204, 204 );
-	/* Login */
-	.margin0 {
-		margin-left: 0;
-		margin-right: 0;
+	min-width: 830px;
+	max-width: 830px;
+	@media(max-width: 991px) {
+		min-width: 100%;
+		max-width: 100%;
 	}
-	.login-form-space {
-		padding: 0 40px;
-	}
-	.fields-wrap {
-		margin-top: 35px;
-	}
-	.fields-wrap-pass {
-		padding-top: 30px;
-	}
-	.input-fields {
-		padding: 0 20px;
-		.bottom-border-input {
-			@include bottom-border();
-			/*padding-left: 10px;
-			height: 40px;
-			border-top: none;
-			border-left: none;
-			border-right: none;
-			border-bottom: 1px solid $primary-black;
-			outline: 0;
-			color: $primary-black;
+	.container-form-outer {
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 830px;
+		@media(max-width: 991px) {
 			width: 100%;
-			font-size: 18px;*/
-			&::-webkit-input-placeholder {
-				color: $primary-black;
+		}
+		/* Login */
+		.margin0 {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		.login-form-space {
+			padding: 0 40px;
+		}
+		.fields-wrap {
+			margin-top: 35px;
+		}
+		.fields-wrap-pass {
+			padding-top: 30px;
+		}
+		.input-fields {
+			.bottom-border-input {
+				@include bottom-border();
+				&::-webkit-input-placeholder {
+					color: $primary-black;
+				}
 			}
 		}
-	}
-	.forgot-pass {
-		font-size: 16px;
-		padding-top: 25px;
-		color: $primary-black;
-		p {
-			padding-right: 22px;
+		.forgot-pass {
+			font-size: 16px;
+			padding-top: 25px;
+			color: $primary-black;
+			p {
+				padding-right: 22px;
+			}
 		}
-	}
-	.sign-in {
-		margin-top: 30px;
-		background-color: $primary-red;
-		color: $primary-white;
-		@include border-radius(0);
-		border-top: 5px solid $primary-blue;
-		width: 301px;
-		font-size: 20px;
+		.sign-in {
+			margin-top: 20px;
+			background-color: $primary-red;
+			color: $primary-white;
+			@include border-radius(0);
+			border-top: 5px solid $primary-blue;
+			width: 301px;
+			font-size: 20px;
+		}
+		/* Sign-up */
+		.left-logo {
+			padding-top: 35px;
+			img.logo-img {
+				width: 250px;
+			}
+			.left-handshake-img {
+				padding-top: 55px;
+			}
+			h5 {
+				margin: 0;
+				padding: 35px 0 0 15px;
+				text-transform: uppercase;
+				font-size: 16px;
+				width: 250px;
+				line-height: 1.667;
+				text-align: center;
+				font-weight: 400;
+			}
+			.handshake-list {
+				width: 300px;
+				h2 {
+					margin: 0;
+					padding-top: 50px;
+					font-size: 20px;
+					line-height: 1.5;
+					text-align: center;
+					color: $primary-red;
+					font-weight: normal;
+				}
+				p {
+					display: inline-block;
+					padding-left: 12px;
+					font-size: 16px;
+					line-height: 1.38;
+					color: $primary-black;
+				}
+				ul {
+					padding: 10px 0 0 24px;
+					li {
+						list-style: none;
+					}
+				}
+			}
+		}
+		.right-account-section {
+			padding-top: 35px;
+			padding-bottom: 40px;
+			.form-outer {
+				padding-top: 45px;
+			}
+			.user-account {
+				display: inline-block;
+				&:nth-child(1) {
+					float: right;
+					vertical-align: middle;
+				}
+				h2 {
+					margin: 0;
+					font-size: 24px;
+					font-weight: 400;
+				}
+				h6 {
+					margin: 0;
+					font-size: 14px;
+					span {
+						color: $primary-red;
+						font-size: 14px;
+						border-bottom: 1px solid $primary-red;
+					}
+				}
+			}
+			/* signup-option */
+			.large-blue-btn {
+				box-shadow: 0px 0px 6px 0px #ccc;
+				border-radius: 0;
+				background-color: $primary-blue;
+				color: $primary-white;
+				font-size: 30px;
+				min-width: 360px;
+				/*height: 140px;*/
+			}
+			.button-outer {
+				padding-top: 65px;
+				.btn-lg {
+					padding: 0;
+				}
+				.button-inner-wrap {
+					padding: 50px 0 50px 0;
+					span {
+						padding-left: 15px;
+					}
+				}
+				.large-red-btn {
+					box-shadow: 0px 0px 6px 0px #ccc;
+					border-radius: 0;
+					background-color: $primary-red;
+					color: $primary-white;
+					font-size: 30px;
+					min-width: 360px;
+				}
+			}
+		}
 	}
 }
 .login-outer-wrap {

@@ -14,14 +14,14 @@
 					<div class="row margin0 fields-wrap">
 						<div class="col-sm-12">
 							<div class="input-fields text-left">
-							<input type="text" class="bottom-border-input" placeholder="Username / Email" />
+							<input type="text" class="bottom-border-input form-control" placeholder="Username / Email" />
 							</div>
 						</div>
 					</div>
 					<div class="row margin0 fields-wrap-pass">
 						<div class="col-sm-12">
 							<div class="input-fields text-left">
-							<input type="Password" class="bottom-border-input" placeholder="Password" />
+							<input type="Password" class="bottom-border-input form-control" placeholder="Password" />
 							</div>
 						</div>
 					</div>
