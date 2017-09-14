@@ -5,7 +5,7 @@
 		<section>
 			<div class="middle-container">
 				<div class="middle-container-inner login-outer-wrap">
-					<div class="container-form-outer login-container">
+					<div class="container-form-outer container login-container">
 						<div class="row">
 							<div class="col-sm-12 login-form-space">
 								<img src="assets/images/Logo.png" alt="logo">
@@ -31,7 +31,7 @@
 								<p>Forgot Password?</p>
 							</div>
 						</div>
-						<button type="button" class="btn btn-secondary btn-lg sign-in">Sign In</button>
+						<button type="button" class="btn btn-secondary btn-lg btn-big btn-red custom-btn sign-in">Sign In</button>
 					</div>
 				</div>
 				<!-- /Form- -->

@@ -4,7 +4,7 @@
 	<div class="container content-container">
 		<div class="middle-container">
 			<div class="middle-container-inner">
-				<div class="container-form-outer">
+				<div class="container-form-outer container signup-container">
 					<div class="row">
 						<!--Left Signup Section- -->
 						<aside>
