@@ -45,7 +45,7 @@ body, html {
 	transform: translateY(-50%);
 	p.outer-line-login {
 		padding-top: 20px;
-		font-size: 18px;
+		font-size: 16px;
 		color: $primary-black;
 		span {
 			color: $primary-red;
@@ -245,127 +245,184 @@ body, html {
 		color: $primary-blue;
 	}
 }
-/* main screens ui */
-.body-bg-color {
-	background: #f9f9f9;
-}
-.big-title {
-	font-size: 42px;
-}
-.ep-heading {
+/* Proposals */
+.image-section-outer {
 	position: relative;
-	font-weight: 400;
-	margin-bottom: 55px;
-	&:after {
-		position: absolute;
-		content: "";
-		background: $primary-red;
-		height: 3px;
-		width: 100px;
-		bottom: -10px;
-		left: 0;
-		right: 0;
-		margin: auto;
-	}
-}
-.map-container {
 	img {
-		max-width: 100%;
+		opacity: 0.7;
 	}
-}
-.map-note {
-	font-style: italic;
-	margin-top: 25px;
-	margin-bottom: 60px;
-}
-.order-estimate-module {
-	display: inline-block;
-	padding: 20px 25px;
-	text-align: center;
-	background: $primary-red;
-	color: #fff;
-	span {
-		display: block;
-		font-weight: 300;
-	}
-	.est-title {
-		margin-bottom: 8px;
+	.designer-outer-text {
+		display: inline-block;
+		position: absolute;
+		left: 20px;
+		top: 20px;
+		color: $primary-white;
 		text-transform: uppercase;
-		font-size: 18px;
-	}
-	.est-sub-title {
-		text-transform: capitalize;
-		font-size: 16px;
-	}
-}
-.custom-btn {
-	min-width: 160px;
-	text-transform: capitalize;
-	border: 0;
-	border-top: 4px solid $primary-blue;
-	border-radius: 0;
-	text-align: center;
-	color: #fff;
-	font-weight: 300;
-	font-size: 16px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	outline: 0;
-	margin: 5px;
-	&:hover,
-	&:focus {
-		opacity: 0.8;
-		color: #fff;
-		outline: 0;
-	}
-}
-.btn-red {
-	background: $primary-red;
-}
-.btn-gray {
-	background: #5f5f5f;
-}
-.btn-big {
-	min-width: 240px;
-}
-/* Eagleview Order */
-.ep-bottom-banner {
-	margin-top: 15px;
-	padding: 15px;
-	background: #fff;
-	color: $text-color;
-	.ep-banner-wrap {
-		display: table;
-		min-height: 85px;
-		width: 100%;
-		.banner-col {
-			display: table-cell;
-			float: none;
-			vertical-align: middle;
-		}
-	}
-}
-.banner-text {
-	display: inline-block;
-	.banner-title {
-		font-weight: 600;
-		margin-bottom: 3px;
-		margin-top: 0;
-	}
-	.address {
-		font-weight: 400;
-	}
-}
-@media(max-width: 767px) {
-	.banner-btn {
-		margin-top: 15px;
-	}
-	.ep-bottom-banner {
-		.ep-banner-wrap {
-			display: block;
-			.banner-col {
-				display: block;
+		p {
+			span {
+				&:nth-child(1) {
+					padding: 2px 6px;
+					background-color: $best-green-color;
+				}
+				&:nth-child(2) {
+					font-weight: 500;
+					color: $primary-black;
+				}
 			}
 		}
 	}
-}
+	.designer-outer-icon {
+		display: inline-block;
+		position: absolute;
+		top: 11px;
+		right: 15px;
+		color: $primary-white;
+	}
+	.image-section-inner {
+		position: absolute;
+		bottom: 14px;
+		.designer-bottom-text {
+			/*p {
+				&:nth-child(1), 
+				&:nth-child(2)  {
+					margin: 0;
+					padding-left: 15px;
+					color: $primary-white;
+					font-size: 14px;
+				}
+				}*/
+			}
+		}
+		.price-outer {
+			position: absolute;
+			right: 11px;
+			bottom: 5px;
+			p {
+				color: $primary-white; 
+			}
+		}
+	}
+	/* main screens ui */
+	.body-bg-color {
+		background: #f9f9f9;
+	}
+	.big-title {
+		font-size: 42px;
+	}
+	.ep-heading {
+		position: relative;
+		font-weight: 400;
+		margin-bottom: 55px;
+		&:after {
+			position: absolute;
+			content: "";
+			background: $primary-red;
+			height: 3px;
+			width: 100px;
+			bottom: -10px;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+	.map-container {
+		img {
+			max-width: 100%;
+		}
+	}
+	.map-note {
+		font-style: italic;
+		margin-top: 25px;
+		margin-bottom: 60px;
+	}
+	.order-estimate-module {
+		display: inline-block;
+		padding: 20px 25px;
+		text-align: center;
+		background: $primary-red;
+		color: #fff;
+		span {
+			display: block;
+			font-weight: 300;
+		}
+		.est-title {
+			margin-bottom: 8px;
+			text-transform: uppercase;
+			font-size: 18px;
+		}
+		.est-sub-title {
+			text-transform: capitalize;
+			font-size: 16px;
+		}
+	}
+	.custom-btn {
+		min-width: 160px;
+		text-transform: capitalize;
+		border: 0;
+		border-top: 4px solid $primary-blue;
+		border-radius: 0;
+		text-align: center;
+		color: #fff;
+		font-weight: 300;
+		font-size: 16px;
+		padding-top: 7px;
+		padding-bottom: 7px;
+		outline: 0;
+		margin: 5px;
+		&:hover,
+		&:focus {
+			opacity: 0.8;
+			color: #fff;
+			outline: 0;
+		}
+	}
+	.btn-red {
+		background: $primary-red;
+	}
+	.btn-gray {
+		background: #5f5f5f;
+	}
+	.btn-big {
+		min-width: 240px;
+	}
+	/* Eagleview Order */
+	.ep-bottom-banner {
+		margin-top: 15px;
+		padding: 15px;
+		background: #fff;
+		color: $text-color;
+		.ep-banner-wrap {
+			display: table;
+			min-height: 85px;
+			width: 100%;
+			.banner-col {
+				display: table-cell;
+				float: none;
+				vertical-align: middle;
+			}
+		}
+	}
+	.banner-text {
+		display: inline-block;
+		.banner-title {
+			font-weight: 600;
+			margin-bottom: 3px;
+			margin-top: 0;
+		}
+		.address {
+			font-weight: 400;
+		}
+	}
+	@media(max-width: 767px) {
+		.banner-btn {
+			margin-top: 15px;
+		}
+		.ep-bottom-banner {
+			.ep-banner-wrap {
+				display: block;
+				.banner-col {
+					display: block;
+				}
+			}
+		}
+	}
