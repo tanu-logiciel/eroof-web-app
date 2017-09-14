@@ -4,6 +4,12 @@
       -ms-border-radius: $radius;
           border-radius: $radius;
 }
+@mixin box-shadow($radius) {
+  -webkit-box-shadow: $radius;
+     -moz-box-shadow: $radius;
+      -ms-box-shadow: $radius;
+          box-shadow: $radius;
+}
 @mixin bottom-border() {
 	padding-left: 10px;
 	height: 40px;
