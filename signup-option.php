@@ -20,9 +20,7 @@
 						<div class="right-section col-sm-7 col-xs-12 col-md-7 signup-table-col">
 							<div class="right-account-section buttons-outer-wrap">
 								<div class="row">
-									<div class="col-sm-6">
-									</div>
-									<div class="col-sm-6 text-right">
+									<div class="col-sm-12 text-right">
 										<div class="user-account">
 											<h6>Already a user? <a href="#"><span> Sign In</span></a></h6>
 										</div> 

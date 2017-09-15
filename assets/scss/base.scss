@@ -779,10 +779,35 @@ a,
 					}
 				}
 			}
+			.signup-logo {
+				padding-top: 20px;
+				h5 {
+					padding-top: 15px;
+					padding-bottom: 15px;
+				}
+				.handshake-list h2 {
+					padding-top: 10px;
+				}
+			}
+			.left-handshake-img {
+				display: none;
+			}
+			.right-section {
+				.right-account-section {
+					&.buttons-outer-wrap {
+						padding-top: 15px;
+						padding-bottom: 15px;
+						.button-outer {
+							padding-top: 30px;
+						}
+					}
+				}
+			}
 		}
 		.signup-container {
 			.signup-table {
 				display: block;
+				min-height: unset;
 				.signup-table-col {
 					display: block;
 				}
