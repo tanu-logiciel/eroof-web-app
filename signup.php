@@ -58,7 +58,6 @@
 											<p>Property Type</p>
 											<input type="radio" id="r1" name="rr" />
 											<label for="r1" class="residential"><span></span>Residential</label>
-
 											<input type="radio" id="r2" name="rr" />
 											<label for="r2"><span></span>Commercial/Multi-family</label>
 										</div>
