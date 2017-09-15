@@ -635,4 +635,58 @@ a,
 /* Modal Design */
 .modal-content {
 	@include border-radius(0);
+	border: 0;
+	border-bottom: 5px solid lighten($primary-red, 5%);
+	.modal-header {
+		position: relative;
+		background: lighten($primary-red, 5%);
+		color: #fff;
+		.modal-title {
+			font-size: 22px;
+			font-weight: 400;
+		}
+		.close {
+			position: absolute;
+			margin-top: -1px;
+		    color: #fff;
+		    top: 0;
+		    right: 15px;
+		    opacity: 1;
+		    font-size: 30px;
+		    top: 50%;
+		    @include translate(translateY(-50%));
+		}
+	}
+}
+.usr-profile-image {
+	position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    line-height: 176px;
+    border: 2px solid #ccc;
+    text-align: center;
+    @include border-radius(100%);
+    img {
+    	max-width: 100%;
+    	max-height: 100%;
+    	@include border-radius(100%);
+    }
+    .img-edit-icon {
+    	position: absolute;
+    	right: 30px;
+    	bottom: 2px;
+    }
+}
+.edit-icon {
+	display: inline-block;
+	height: 25px;
+	width: 25px;
+	line-height: 25px;
+	background: $primary-red;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	@include box-shadow(0 5px 6px -6px black);
+	@include border-radius(100%);
 }
