@@ -35,7 +35,7 @@
 					</div>
 				</div>
 				<!-- /Form- -->
-				<p class="outer-line-login">Don't have an account?<a href="#"><span> Sign Up</span></a></p>
+				<p class="outer-line-login">Don't have an account? <a href="signup.php">Sign Up</a></p>
 			</div>
 		</section>
 	</div>

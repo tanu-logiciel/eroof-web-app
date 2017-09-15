@@ -4,7 +4,7 @@
 	<div class="container content-container">
 		<div class="middle-container">
 			<div class="middle-container-inner">
-				<div class="container-form-outer container signup-container">
+				<div class="container-form-outer signup-container">
 					<div class="row signup-table">
 						<!--Left Signup Section- -->
 						<div class="col-sm-5 signup-table-col">
@@ -131,8 +131,8 @@
 												<input type="password" class="bottom-border-input form-control" placeholder="Password" />
 											</div>
 										</div>
+										<a href="welcome.php" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big">Sign Up</a>
 									</div>
-									<button type="button" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big">Sign In</button>
 								</div>
 								<!--/Form- -->
 							</div>
