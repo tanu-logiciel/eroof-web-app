@@ -1,7 +1,6 @@
-<div id="view-profile-modal" class="modal fade" role="dialog">
+<!-- <div id="view-profile-modal" class="modal fade" role="dialog">
     <div class="modal-dialog modal-lg">
 
-        <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -42,12 +41,9 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div> -->
         </div>
     </div>
-</div>
+</div> -->
 <div class="body-bg-color">
     <!-- Header -->
     <nav class="navbar navbar-default custom-navbar">
@@ -67,7 +63,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="my-estimates.php">My Estimates</a></li>
-                    <li><a href="#" data-toggle="modal" data-target="#view-profile-modal">Profile</a></li>
+                    <li><a href="#">Profile</a></li>
                     <li class="dropdown user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img src="assets/images/profile.png" alt="Profile Pic" class="user-profile-pic"> Test data <span class="caret"></span></a>
                         <ul class="dropdown-menu">
