@@ -25,6 +25,7 @@
 					</p>
 				</div>
 				<div class="estimate-address">
+					<i class="fa fa-map-marker location-icon" aria-hidden="true"></i>
 					<span class="address-panel">
 						480 Sidney Road, Piscataway township, NJ 08854
 					</span>

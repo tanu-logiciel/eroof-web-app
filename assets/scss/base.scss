@@ -445,6 +445,10 @@ body, html {
 			right: 0;
 			bottom: 0;
 		}
+		.address-panel {
+			padding-left: 20px;
+			display: block;
+		}
 	}
 	.report-awaited-text {
 		position: relative;
@@ -509,6 +513,10 @@ body, html {
 	.address {
 		font-weight: 400;
 	}
+}
+.location-icon {
+	vertical-align: middle;
+	float: left;
 }
 @media(max-width: 767px) {
 	.banner-btn {
