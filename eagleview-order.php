@@ -16,15 +16,15 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="ep-bottom-banner">
-				<div class="row ep-banner-wrap">
-					<div class="col-md-8 col-sm-7 banner-col">
-						<div class="banner-text">
-							<h4 class="banner-title">Location</h4>
+				<div class="row ep-banner-wrap margin0">
+					<div class="col-md-8 col-sm-7 col-xs-12 ep-banner-col">
+						<div class="ep-banner-text">
+							<h4 class="ep-banner-title">Location</h4>
 							<span class="address">1801 Mullikin Dr, Champaign, IL 61822</span>
 						</div>
 					</div>
-					<div class="col-md-4 col-sm-5 text-center banner-col">
-						<div class="banner-btn">
+					<div class="col-md-4 col-sm-5 col-xs-12 text-center ep-banner-col">
+						<div class="ep-banner-btn">
 							<a href="roof-measurements.php" class="btn custom-btn btn-red btn-big">Request roof estimate</a>
 						</div>
 					</div>

@@ -10,6 +10,9 @@ a,
 .btn {
 	@include transition(0.2s ease-in-out);
 }
+.margin0 {
+	margin: 0;
+}
 .text-lead {
 	font-size: 18px;
 	font-weight: 500;
@@ -247,14 +250,15 @@ a,
 	}
 }
 .middle-container-inner .signup-container {
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 0;
+	padding-right: 0;
 	width: 100%;
-	min-height: 533px;
 	.signup-table {
 		display: table;
 		min-height: 85px;
 		width: 100%;
+		min-height: 535px;
+		margin: 0;
 		.signup-table-col {
 			display: table-cell;
 			float: none;
@@ -464,6 +468,7 @@ a,
 	background: #fff;
 	font-weight: 500;
 	font-size: 15px;
+	min-height: 176px;
 	@include box-shadow(0px 0px 6px 0px #ccc);
 	.estimate-info {
 		p {
@@ -533,24 +538,24 @@ a,
 /* Eagleview Order */
 .ep-bottom-banner {
 	margin-top: 15px;
-	padding: 15px;
+	padding: 15px 0;
 	background: #fff;
 	color: $text-color;
 	.ep-banner-wrap {
 		display: table;
 		min-height: 85px;
 		width: 100%;
-		.banner-col {
+		.ep-banner-col {
 			display: table-cell;
 			float: none;
 			vertical-align: middle;
 		}
 	}
 }
-.banner-text {
+.ep-banner-text {
 	display: inline-block;
 	line-height: 1.67;
-	.banner-title {
+	.ep-banner-title {
 		font-weight: 600;
 		margin-bottom: 8px;
 		margin-top: 0;
@@ -560,7 +565,7 @@ a,
 	}
 }
 @media(max-width: 767px) {
-	.banner-btn {
+	.ep-banner-btn {
 		margin-top: 15px;
 	}
 	.ep-bottom-banner {
