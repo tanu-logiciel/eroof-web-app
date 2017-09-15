@@ -120,6 +120,9 @@ a,
 			}
 			.left-handshake-img {
 				padding-top: 55px;
+				img {
+					width: 115px;
+				}
 			}
 			h5 {
 				margin: 0;
@@ -158,12 +161,21 @@ a,
 			}
 		}
 		.right-section {
+			position: relative;
 			background-color: #f5f5f5;
 			.right-account-section {
 				padding-top: 30px;
 				padding-bottom: 40px;
 				.form-outer {
-					padding-top: 20px;
+					padding-top: 15px;
+					.property-type {
+						padding-left: 23px;
+					padding-bottom: 10px;
+						p {
+							margin-bottom: 5px;
+							font-size: 16px;
+						}
+					}
 					.radio-btn-wrap {
 						display: inline-block;
 					}
@@ -195,25 +207,31 @@ a,
 						}
 					}
 				}
-				.property-type .radio-btn-wrap  input[type="radio"] {
-					background-color: red;
+				input[type="radio"] {
+					display:none;
 				}
-			.property-type .radio-btn-wrap	input[type=radio]:checked ~ .check {
-  border: 5px solid #0DFF92;
-}
-.property-type .radio-btn-wrap .check::before {
-  display: block;
-  position: absolute;
-	content: '';
-  border-radius: 50%;
-  height: 15px;
-  width: 15px;
-  top: 5px;
-	left: 5px;
-  margin: auto;
-	transition: background 0.25s linear;
-	-webkit-transition: background 0.25s linear;
-}
+
+				input[type="radio"] + label {
+					color: $primary-black;
+					font-weight: 400;
+					font-size: 15px;
+				}
+				.residential {
+					padding-right: 25px;
+				}
+				input[type="radio"] + label span {
+					display:inline-block;
+					width: 15px;
+					height: 15px;
+					margin:-2px 6px 0 0;
+					vertical-align:middle;
+					background: url('../images/gray-radio-btn.jpg');
+					cursor:pointer;
+				}
+
+				input[type="radio"]:checked + label span {
+					background:url('../images/radio-filled.png');
+				}
 				/* signup-option */
 				.large-blue-btn {
 					box-shadow: 0px 0px 6px 0px #ccc;
@@ -230,7 +248,7 @@ a,
 						padding: 0;
 					}
 					.button-inner-wrap {
-						padding: 35px 0 35px 0;
+						padding: 40px 0 40px 0;
 						.signup-icon {
 							font-size: 40px;
 						}
@@ -290,6 +308,13 @@ a,
 }
 .custom-btn.sign-in {
 	margin: 0;
+}
+.signup-large-btn {
+	position: absolute;
+    top: 89%;
+    left: 26%;
+    /* bottom: 0; */
+    margin: auto;
 }
 /* Signup HomeOwners */
 .middle-container-inner .container-form-outer .signup-logo .signup-homeowner {

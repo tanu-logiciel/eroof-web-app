@@ -56,13 +56,10 @@
 									<div class="row">
 										<div class="col-md-12 col-sm-12 text-left property-type">
 											<p>Property Type</p>
-											<div class="radio radio-btn-wrap">
-												<label><input type="radio" name="optradio">Option 1</label>
-												<div class="check"></div>
-											</div>
-											<div class="radio radio-btn-wrap">
-												<label><input type="radio" name="optradio">Option 2</label>
-											</div>
+											<input type="radio" id="r1" name="rr" />
+											<label for="r1" class="residential"><span></span>Residential</label>
+											<input type="radio" id="r2" name="rr" />
+											<label for="r2"><span></span>Commercial/Multi-family</label>
 										</div>
 									</div>
 									<div class="row fields-outer-row">
@@ -131,7 +128,7 @@
 												<input type="password" class="bottom-border-input form-control" placeholder="Password" />
 											</div>
 										</div>
-										<a href="welcome.php" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big">Sign Up</a>
+										<a href="welcome.php" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big signup-large-btn">Sign Up</a>
 									</div>
 								</div>
 								<!--/Form- -->
