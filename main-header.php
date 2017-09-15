@@ -14,6 +14,21 @@
                             <img src="assets/images/edit-profile.png" alt="user image">
                             <span class="edit-icon img-edit-icon"><i class="fa fa-pencil" aria-hidden="true"></i></span>
                         </div>
+                        <div class="usr-account-info">
+                            <span class="usr-data usr-id">contractor <span class="id-num">272</span></span>
+                            <span class="usr-data">(732) 904-3002</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row usr-other-info-wrap">
+                    <div class="col-md-4 col-sm-4">
+                        ghdfugyuf
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        ghdfugyuf
+                    </div>
+                    <div class="col-md-4 col-sm-4">
+                        ghdfugyuf
                     </div>
                 </div>
             </div>
