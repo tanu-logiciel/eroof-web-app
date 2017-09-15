@@ -53,7 +53,18 @@
 								</div>
 								<!-- Form - -->
 								<div class="form-outer">
-
+									<div class="row">
+										<div class="col-md-12 col-sm-12 text-left property-type">
+											<p>Property Type</p>
+											<div class="radio radio-btn-wrap">
+												<label><input type="radio" name="optradio">Option 1</label>
+												<div class="check"></div>
+											</div>
+											<div class="radio radio-btn-wrap">
+												<label><input type="radio" name="optradio">Option 2</label>
+											</div>
+										</div>
+									</div>
 									<div class="row fields-outer-row">
 										<div class="col-sm-6 input-fields">
 											<div class="form-group">
