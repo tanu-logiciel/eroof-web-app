@@ -5,9 +5,9 @@
 		<section>
 			<div class="middle-container">
 				<div class="middle-container-inner login-outer-wrap">
-					<div class="container-form-outer container login-container">
+					<div class="container-form-outer login-container">
 						<div class="row">
-							<div class="col-sm-12 login-form-space">
+							<div class="col-sm-12 login-form-space login-logo">
 								<img src="assets/images/Logo.png" alt="logo">
 							</div>
 						</div>
