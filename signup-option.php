@@ -7,7 +7,7 @@
 				<div class="container-form-outer signup-container">
 					<div class="row signup-table">
 						<!--Left Section Start- -->
-						<div class="col-sm-5 signup-table-col">
+						<div class="col-sm-5 col-xs-12 col-md-5 signup-table-col">
 							<div class="signup-logo">
 								<img src="assets/images/Logo.png" class="img-responsive logo-img" alt="logo">
 								<h5>SEAMLESS HANDSHAKE OF HOME OWNERS & ROOFING CONTRACTORS</h5>
@@ -17,7 +17,7 @@
 							</div>
 						</div>
 						<!--/Left Section- -->
-						<div class="right-section col-sm-7 signup-table-col">
+						<div class="right-section col-sm-7 col-xs-12 col-md-7 signup-table-col">
 							<div class="right-account-section buttons-outer-wrap">
 								<div class="row">
 									<div class="col-sm-6">

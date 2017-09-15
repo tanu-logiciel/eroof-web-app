@@ -7,7 +7,7 @@
 				<div class="container-form-outer signup-container">
 					<div class="row signup-table">
 						<!--Left Signup Section- -->
-						<div class="col-sm-5 signup-table-col">
+						<div class="col-sm-5 col-md-5 col-xs-12 signup-table-col">
 							<div class="signup-logo">
 								<div>
 									<img src="assets/images/Logo.png" class="img-responsive logo-img" alt="logo">
@@ -37,7 +37,7 @@
 							</div>
 						</div>
 						<!--/Left Section- -->
-						<div class="right-section col-sm-7 signup-table-col">
+						<div class="right-section col-sm-7 col-md-7 col-xs-12 signup-table-col">
 							<div class="right-account-section">
 								<div class="row">
 									<div class="col-sm-6">
@@ -128,7 +128,9 @@
 												<input type="password" class="bottom-border-input form-control" placeholder="Password" />
 											</div>
 										</div>
-										<a href="welcome.php" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big signup-large-btn">Sign Up</a>
+										<div class="signup-large-btn">
+										<a href="welcome.php" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big">Sign Up</a>
+										</div>
 									</div>
 								</div>
 								<!--/Form- -->

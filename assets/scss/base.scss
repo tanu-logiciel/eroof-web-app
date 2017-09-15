@@ -81,6 +81,10 @@ a,
 		min-width: 100%;
 		max-width: 100%;
 	}
+	@media(max-width: 767px) {
+		min-width: 95%;
+		max-width: 95%;
+	}
 	.container-form-outer {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -166,16 +170,18 @@ a,
 			}
 		}
 		.right-section {
-			position: relative;
+			padding-bottom: 35px;
 			background-color: #f5f5f5;
 			.right-account-section {
 				padding-top: 30px;
 				padding-bottom: 40px;
 				.form-outer {
+					position: relative;
 					padding-top: 15px;
+					padding-bottom: 15px;
 					.property-type {
 						padding-left: 23px;
-					padding-bottom: 10px;
+						padding-bottom: 10px;
 						p {
 							margin-bottom: 5px;
 							font-size: 16px;
@@ -320,10 +326,11 @@ a,
 }
 .signup-large-btn {
 	position: absolute;
-    top: 89%;
-    left: 26%;
-    /* bottom: 0; */
-    margin: auto;
+	top: 100%;
+	bottom: 0;
+	left: 0;
+	/*margin: auto;*/
+	right: 0;
 }
 /* Signup HomeOwners */
 .middle-container-inner .container-form-outer .signup-logo .signup-homeowner {
@@ -481,9 +488,6 @@ a,
 	}
 }
 .custom-btn {
-	margin: 5px;
-	padding-top: 9px;
-	padding-bottom: 10px;
 	min-width: 160px;
 	text-transform: capitalize;
 	border: 0;
@@ -493,7 +497,10 @@ a,
 	color: #fff;
 	font-weight: 300;
 	font-size: 16px;
+	padding-top: 9px;
+	padding-bottom: 10px;
 	outline: 0;
+	margin: 5px;
 	&:hover,
 	&:focus {
 		color: #fff;
@@ -644,39 +651,34 @@ a,
 		.close {
 			position: absolute;
 			margin-top: -1px;
-		    color: #fff;
-		    top: 0;
-		    right: 15px;
-		    opacity: 1;
-		    font-size: 30px;
-		    top: 50%;
-		    @include translate(translateY(-50%));
+			color: #fff;
+			top: 0;
+			right: 15px;
+			opacity: 1;
+			font-size: 30px;
+			top: 50%;
+			@include translate(translateY(-50%));
 		}
 	}
 }
 .usr-profile-image {
 	position: relative;
-    display: inline-block;
-    width: 180px;
-    height: 180px;
-    line-height: 176px;
-    border: 2px solid #ccc;
-    text-align: center;
-    @include border-radius(100%);
-    img {
-    	max-width: 100%;
-    	max-height: 100%;
-    	@include border-radius(100%);
-    }
-    .img-edit-icon {
-    	position: absolute;
-    	right: 30px;
-    	bottom: 2px;
-    }
-}
-#view-profile-modal {
-	.modal-body {
-		padding-bottom: 0;
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	line-height: 176px;
+	border: 2px solid #ccc;
+	text-align: center;
+	@include border-radius(100%);
+	img {
+		max-width: 100%;
+		max-height: 100%;
+		@include border-radius(100%);
+	}
+	.img-edit-icon {
+		position: absolute;
+		right: 30px;
+		bottom: 2px;
 	}
 }
 .edit-icon {
@@ -723,7 +725,7 @@ a,
 	.ep-bottom-banner {
 		.ep-banner-wrap {
 			display: block;
-			.banner-col {
+			.ep-banner-col {
 				display: block;
 			}
 		}
