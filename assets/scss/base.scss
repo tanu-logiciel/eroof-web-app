@@ -47,8 +47,11 @@ body, html {
 		padding-top: 20px;
 		font-size: 17px;
 		color: $primary-black;
-		span {
-			color: $primary-red;
+		a {
+			text-decoration: none;
+			span {
+				color: $primary-red;
+			}
 		}
 	}
 }
@@ -88,12 +91,16 @@ body, html {
 		.forgot-pass {
 			font-size: 15px;
 			/*padding-top: 25px;*/
-			color: $primary-black;
-			p {
-				/*padding-right: 22px;*/
-				margin: 0;
-				padding-bottom: 25px;
-				padding-top: 20px;
+			/*color: $primary-black;*/
+			a {
+				text-decoration: none;
+				color: $primary-black;;
+				p {
+					/*padding-right: 22px;*/
+					margin: 0;
+					padding-bottom: 25px;
+					padding-top: 20px;
+				}
 			}
 		}
 		/* Sign-up */
@@ -412,7 +419,7 @@ body, html {
 		outline: 0;
 		background-color: #c72202;
 		transition: 0.2s ease-in-out;
-		 -webkit-transition: 0.2s ease-in-out;
+		-webkit-transition: 0.2s ease-in-out;
 	}
 }
 .btn-red {
