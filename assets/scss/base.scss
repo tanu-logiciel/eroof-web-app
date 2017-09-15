@@ -108,9 +108,6 @@ a,
 					margin: 0;
 					margin-bottom: 25px;
 					margin-top: 20px;
-					&:hover {
-						text-decoration: underline;
-					}
 				}
 			}
 		}
@@ -281,7 +278,7 @@ a,
 .login-outer-wrap {
 	padding-top: 30px;
 	padding-bottom: 40px;
-	min-width: 0;
+	min-width: 450px;
 	max-width: unset;
 }
 .input-fields {
@@ -709,4 +706,17 @@ a,
 .usr-other-info-wrap {
 	margin-top: 15px;
 	background: #f9f9f9;
+	.usr-info-col {
+		padding: 0;
+		.usr-info-title {
+			font-size: 18px;
+			font-weight: 500;
+			background: #eee;
+			padding: 8px 15px;
+			border-right: 1px solid #ccc;
+		}
+		.usr-info-text {
+			padding: 8px 15px;
+		}
+	}
 }

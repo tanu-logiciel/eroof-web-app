@@ -21,8 +21,13 @@
                     </div>
                 </div>
                 <div class="row usr-other-info-wrap">
-                    <div class="col-md-4 col-sm-4">
-                        ghdfugyuf
+                    <div class="col-md-4 col-sm-4 usr-info-col">
+                        <div class="usr-info-title text-center">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> Location
+                        </div>
+                        <div class="usr-info-text">
+                            
+                        </div>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         ghdfugyuf
