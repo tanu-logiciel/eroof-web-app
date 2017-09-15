@@ -34,7 +34,7 @@
 					<div class="col-md-5 col-sm-6 col-xs-12 text-center ep-banner-col">
 						<div class="ep-banner-btn">
 							<a href="" class="btn custom-btn btn-gray">Report(s)</a>
-							<a href="proposal.php" class="btn custom-btn btn-red">Proposals</a>
+							<a href="#" class="btn custom-btn btn-red">Proposals</a>
 						</div>
 					</div>
 				</div>
