@@ -6,6 +6,9 @@
 		height: auto;
 		img {
 			width: 234px;
+			@media(max-width: 767px) {
+				width: 200px;
+			}
 		}
 	}
 	.navbar-nav {
