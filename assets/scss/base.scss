@@ -536,7 +536,7 @@ a,
 	background: #fff;
 	font-weight: 500;
 	font-size: 15px;
-	min-height: 176px;
+	min-height: 155px;
 	@include box-shadow(0px 0px 6px 0px #ccc);
 	.estimate-info {
 		p {
@@ -547,7 +547,7 @@ a,
 	.estimate-address {
 		position: relative;
 		padding-right: 100px;
-		margin-top: 10px;
+		margin-top: 13px;
 		.estimate-label {
 			position: absolute;
 			right: 0;
@@ -570,7 +570,7 @@ a,
 	.report-awaited-text {
 		position: relative;
 		padding-left: 60px;
-		margin-top: 19px;
+		margin-top: 20px;
 		margin-bottom: 20px;
 		img {
 			float: left;
@@ -584,6 +584,17 @@ a,
 		span {
 			display: block;
 		}
+		@media(max-width: 1199px) and (min-width: 767px) {
+			margin-top: 6px;
+			margin-bottom: 7px;
+		}
+		@media(max-width: 767px) {
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+	}
+	@media(max-width: 767px) {
+		min-height: unset;
 	}
 }
 .estimate-label {
@@ -658,6 +669,11 @@ a,
 		}
 	}
 }
+#view-profile-modal {
+	.modal-body {
+		padding-bottom: 0;
+	}
+}
 .usr-profile-image {
 	position: relative;
 	display: inline-block;
@@ -712,6 +728,8 @@ a,
 		}
 		.usr-info-text {
 			padding: 8px 15px;
+			font-weight: 500;
+			border-right: 1px solid #ccc;
 		}
 	}
 }

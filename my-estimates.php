@@ -10,7 +10,6 @@
 		<div class="col-md-4 col-sm-6 ep-estimate-col-outer ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
-					<p>View Proposal</p>
 					<p>
 						<span>Squares</span>
 						<span class="pull-right">49</span>
@@ -93,7 +92,6 @@
 		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
-					<p>View Proposal</p>
 					<p>
 						<span>Squares</span>
 						<span class="pull-right">49</span>
@@ -119,7 +117,6 @@
 		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
-					<p>View Proposal</p>
 					<p>
 						<span>Squares</span>
 						<span class="pull-right">49</span>
@@ -145,7 +142,6 @@
 		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
-					<p>View Proposal</p>
 					<p>
 						<span>Squares</span>
 						<span class="pull-right">49</span>
