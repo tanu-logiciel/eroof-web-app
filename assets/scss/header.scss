@@ -67,6 +67,24 @@
 			}
 		}
 	}
+	.navbar-header {
+		position: relative;
+		.navbar-toggle {
+			position: absolute;
+			margin: 0;
+			top: 50%;
+			right: 15px;
+			border-color: #333;
+			@include translate(translateY(-50%));
+			.icon-bar {
+				background-color: #333;
+			}
+			&:hover,
+			&:focus {
+				background-color: #f5f5f5;
+			}
+		}
+	}
 }
 .ep-breadcrumbs {
 	background: transparent;
