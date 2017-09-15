@@ -585,3 +585,7 @@ a,
 		}
 	}
 }
+/* Modal Design */
+.modal-content {
+	@include border-radius(0);
+}
