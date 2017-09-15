@@ -45,7 +45,7 @@ body, html {
 	transform: translateY(-50%);
 	p.outer-line-login {
 		padding-top: 20px;
-		font-size: 16px;
+		font-size: 17px;
 		color: $primary-black;
 		span {
 			color: $primary-red;
@@ -82,18 +82,18 @@ body, html {
 			margin-top: 35px;
 		}
 		.fields-wrap-pass {
-			padding-top: 30px;
+			padding-top: 17px;
 		}
 		
 		.forgot-pass {
-			font-size: 16px;
+			font-size: 15px;
 			/*padding-top: 25px;*/
 			color: $primary-black;
 			p {
 				/*padding-right: 22px;*/
 				margin: 0;
-				padding-bottom: 11px;
-				padding-top: 15px;
+				padding-bottom: 25px;
+				padding-top: 20px;
 			}
 		}
 		/* Sign-up */
@@ -239,6 +239,9 @@ body, html {
 	width: 100%;
 	min-height: 533px;
 }
+.custom-btn.sign-in {
+	margin: 0;
+}
 /* Signup HomeOwners */
 .middle-container-inner .container-form-outer .signup-logo .signup-homeowner {
 	h2 {
@@ -317,6 +320,7 @@ body, html {
 	}
 }
 .specifications {
+	color: $primary-black;
 	h2 {
 		font-weight: 400;
 	}
@@ -324,6 +328,14 @@ body, html {
 		font-size: 15px;
 		color: $primary-black;
 	}
+	ul {
+		padding-top: 17px;
+		padding-left: 17px;
+	}
+}
+.banner-btn {
+	padding-top: 20px;
+	padding-bottom: 70px;
 }
 /* main screens ui */
 .body-bg-color {
@@ -394,9 +406,12 @@ body, html {
 	margin: 5px;
 	&:hover,
 	&:focus {
-		opacity: 0.8;
+		/*opacity: 0.8;*/
 		color: #fff;
 		outline: 0;
+		background-color: #c72202;
+		transition: 0.2s ease-in-out;
+		 -webkit-transition: 0.2s ease-in-out;
 	}
 }
 .btn-red {
