@@ -93,7 +93,7 @@
 </div>
 <div class="row">
 	<div class="col-md-12 col-sm-12 text-center">
-		<div class="banner-btn">
+		<div class="specification-banner-btn">
 		<a href="#" class="btn custom-btn btn-gray">Detailed Specs</a>
 			<a href="#" class="btn custom-btn btn-red">Choose Contractor</a>
 		</div>
