@@ -30,7 +30,7 @@
 								</div>
 								<!-- Buttons - -->
 								<div class="button-outer">
-									<a href="#" class="btn large-blue-btn btn-lg">
+									<a href="signup-homeowners.php" class="btn large-blue-btn btn-lg">
 										<div class="button-inner-wrap">
 											<i class="fa fa-home signup-icon" aria-hidden="true"></i>
 											<span>I am a Home Owner</span> 
@@ -38,7 +38,7 @@
 									</a>
 								</div>
 								<div class="button-outer">
-									<a href="#" class="btn large-red-btn btn-lg">
+									<a href="signup.php" class="btn large-red-btn btn-lg">
 										<div class="button-inner-wrap">
 											<i class="fa fa-home signup-icon" aria-hidden="true"></i>
 											<span>I am a Contractor</span> 
