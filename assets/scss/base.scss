@@ -462,8 +462,16 @@ a,
 	min-width: 240px;
 }
 /* My Estimates */
+.ep-estimates-row {
+	padding-left: 5px;
+	padding-right: 5px;
+	.ep-estimate-col-outer {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
 .ep-estimate-col {
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 	padding: 15px;
 	background: #fff;
 	font-weight: 500;

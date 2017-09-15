@@ -6,8 +6,8 @@
 			<h1 class="ep-heading">My Estimates</h1>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-md-4 col-sm-4">
+	<div class="row ep-estimates-row">
+		<div class="col-md-4 col-sm-4 ep-estimate-col-outer ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<p>View Proposal</p>
@@ -33,7 +33,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4">
+		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
@@ -52,7 +52,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4">
+		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
@@ -71,7 +71,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4">
+		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
@@ -90,7 +90,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4">
+		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<p>View Proposal</p>
@@ -116,7 +116,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4">
+		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<p>View Proposal</p>
@@ -142,7 +142,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4">
+		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<p>View Proposal</p>
@@ -168,7 +168,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4">
+		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
@@ -187,7 +187,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4">
+		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
