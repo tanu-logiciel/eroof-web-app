@@ -40,12 +40,12 @@
 						<div class="right-section col-sm-7 col-md-7 col-xs-12 signup-table-col">
 							<div class="right-account-section">
 								<div class="row">
-									<div class="col-sm-6">
+									<div class="col-sm-7 col-md-7 text-left">
 										<div class="user-account">
 											<h2>Create an Account</h2>
 										</div>
 									</div>
-									<div class="col-sm-6 text-right">
+									<div class="col-sm-5 col-md-5 text-right">
 										<div class="user-account">
 											<h6>Already a user? <a href="#"><span> Sign In</span></a></h6>
 										</div> 
@@ -128,9 +128,9 @@
 												<input type="password" class="bottom-border-input form-control" placeholder="Password" />
 											</div>
 										</div>
-										<div class="signup-large-btn">
+									</div>
+									<div class="signup-large-btn">
 										<a href="welcome.php" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big">Sign Up</a>
-										</div>
 									</div>
 								</div>
 								<!--/Form- -->
