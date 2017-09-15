@@ -128,7 +128,9 @@
 												<input type="password" class="bottom-border-input form-control" placeholder="Password" />
 											</div>
 										</div>
-										<a href="welcome.php" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big signup-large-btn">Sign Up</a>
+										<div class="signup-large-btn">
+										<a href="welcome.php" class="btn btn-secondary btn-lg sign-in btn-red custom-btn btn-big">Sign Up</a>
+										</div>
 									</div>
 								</div>
 								<!--/Form- -->
