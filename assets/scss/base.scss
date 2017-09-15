@@ -24,7 +24,7 @@ a,
 	position: relative;
 	height: 100%;
 	background: url('../images/main-bg.png') no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	background-position: center;
 	.bg-overlay {
 		position: absolute;
@@ -76,6 +76,10 @@ a,
 		min-width: 100%;
 		max-width: 100%;
 	}
+	@media(max-width: 767px) {
+		min-width: 95%;
+		max-width: 95%;
+	}
 	.container-form-outer {
 		padding-left: 20px;
 		padding-right: 20px;
@@ -104,13 +108,10 @@ a,
 				text-decoration: none;
 				color: $primary-black;;
 				p {
-					display: inline-block;
+					/*padding-right: 22px;*/
 					margin: 0;
-					margin-bottom: 25px;
-					margin-top: 20px;
-					&:hover {
-						text-decoration: underline;
-					}
+					padding-bottom: 25px;
+					padding-top: 20px;
 				}
 			}
 		}
@@ -175,7 +176,7 @@ a,
 					padding-bottom: 15px;
 					.property-type {
 						padding-left: 23px;
-					padding-bottom: 10px;
+						padding-bottom: 10px;
 						p {
 							margin-bottom: 5px;
 							font-size: 16px;
@@ -317,10 +318,10 @@ a,
 .signup-large-btn {
 	position: absolute;
 	top: 100%;
-    bottom: 0;
-    left: 0;
-    /*margin: auto;*/
-    right: 0;
+	bottom: 0;
+	left: 0;
+	/*margin: auto;*/
+	right: 0;
 }
 /* Signup HomeOwners */
 .middle-container-inner .container-form-outer .signup-logo .signup-homeowner {
@@ -478,9 +479,6 @@ a,
 	}
 }
 .custom-btn {
-	margin: 5px;
-	padding-top: 9px;
-	padding-bottom: 10px;
 	min-width: 160px;
 	text-transform: capitalize;
 	border: 0;
@@ -490,7 +488,10 @@ a,
 	color: #fff;
 	font-weight: 300;
 	font-size: 16px;
+	padding-top: 7px;
+	padding-bottom: 7px;
 	outline: 0;
+	margin: 5px;
 	&:hover,
 	&:focus {
 		color: #fff;
@@ -654,39 +655,34 @@ a,
 		.close {
 			position: absolute;
 			margin-top: -1px;
-		    color: #fff;
-		    top: 0;
-		    right: 15px;
-		    opacity: 1;
-		    font-size: 30px;
-		    top: 50%;
-		    @include translate(translateY(-50%));
+			color: #fff;
+			top: 0;
+			right: 15px;
+			opacity: 1;
+			font-size: 30px;
+			top: 50%;
+			@include translate(translateY(-50%));
 		}
 	}
 }
 .usr-profile-image {
 	position: relative;
-    display: inline-block;
-    width: 180px;
-    height: 180px;
-    line-height: 176px;
-    border: 2px solid #ccc;
-    text-align: center;
-    @include border-radius(100%);
-    img {
-    	max-width: 100%;
-    	max-height: 100%;
-    	@include border-radius(100%);
-    }
-    .img-edit-icon {
-    	position: absolute;
-    	right: 30px;
-    	bottom: 2px;
-    }
-}
-#view-profile-modal {
-	.modal-body {
-		padding-bottom: 0;
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	line-height: 176px;
+	border: 2px solid #ccc;
+	text-align: center;
+	@include border-radius(100%);
+	img {
+		max-width: 100%;
+		max-height: 100%;
+		@include border-radius(100%);
+	}
+	.img-edit-icon {
+		position: absolute;
+		right: 30px;
+		bottom: 2px;
 	}
 }
 .edit-icon {
@@ -700,16 +696,4 @@ a,
 	cursor: pointer;
 	@include box-shadow(0 5px 6px -6px black);
 	@include border-radius(100%);
-}
-.usr-account-info {
-	margin-top: 8px;
-	font-size: 17px;
-	.usr-data {
-		display: block;
-		line-height: 1.6;
-	}
-}
-.usr-other-info-wrap {
-	margin-top: 15px;
-	background: #f9f9f9;
 }
