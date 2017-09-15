@@ -24,7 +24,7 @@ a,
 	position: relative;
 	height: 100%;
 	background: url('../images/main-bg.png') no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
 	.bg-overlay {
 		position: absolute;
@@ -104,10 +104,13 @@ a,
 				text-decoration: none;
 				color: $primary-black;;
 				p {
-					/*padding-right: 22px;*/
+					display: inline-block;
 					margin: 0;
-					padding-bottom: 25px;
-					padding-top: 20px;
+					margin-bottom: 25px;
+					margin-top: 20px;
+					&:hover {
+						text-decoration: underline;
+					}
 				}
 			}
 		}
@@ -475,6 +478,9 @@ a,
 	}
 }
 .custom-btn {
+	margin: 5px;
+	padding-top: 9px;
+	padding-bottom: 10px;
 	min-width: 160px;
 	text-transform: capitalize;
 	border: 0;
@@ -484,10 +490,7 @@ a,
 	color: #fff;
 	font-weight: 300;
 	font-size: 16px;
-	padding-top: 7px;
-	padding-bottom: 7px;
 	outline: 0;
-	margin: 5px;
 	&:hover,
 	&:focus {
 		color: #fff;
@@ -681,6 +684,11 @@ a,
     	bottom: 2px;
     }
 }
+#view-profile-modal {
+	.modal-body {
+		padding-bottom: 0;
+	}
+}
 .edit-icon {
 	display: inline-block;
 	height: 25px;
@@ -692,4 +700,16 @@ a,
 	cursor: pointer;
 	@include box-shadow(0 5px 6px -6px black);
 	@include border-radius(100%);
+}
+.usr-account-info {
+	margin-top: 8px;
+	font-size: 17px;
+	.usr-data {
+		display: block;
+		line-height: 1.6;
+	}
+}
+.usr-other-info-wrap {
+	margin-top: 15px;
+	background: #f9f9f9;
 }
