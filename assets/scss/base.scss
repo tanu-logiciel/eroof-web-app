@@ -416,9 +416,23 @@ a,
 		color: $primary-black;
 	}
 	ul {
-		padding-top: 17px;
-		padding-left: 17px;
-	}
+			padding-top: 17px;
+			padding-left: 0;
+			li {
+				list-style: none;
+			}
+			li::before {
+				content: "• ";
+				line-height: 7px;
+				width: 6px;
+				height: 6px;
+				background-color: #111;
+				float: left;
+				margin: 20px 10px 0 0;
+				border-radius: 50%;
+				margin-top: 6px;
+			}
+		}
 }
 .specification-banner-btn {
 	padding-top: 20px;
