@@ -92,3 +92,45 @@
 		padding: 0 10px;
 	}
 }
+.margin0 {
+
+	margin-left: 0;
+	margin-right: 0;
+}
+.tabs-outer {
+	.nav-tabs {
+		border-bottom: none;
+		li {
+			padding: 0;
+			a {
+				padding: 0;
+			}
+		}
+		.tabs-inner {
+			display: inline-block;
+			width: 33.3%;
+			float: left;
+		}
+		.nav>li>a {
+			padding: 0;
+			border: none;
+			&:hover,
+			&:focus {
+				border: none;
+				cursor: pointer;
+			}
+		}
+	}
+}
+.tabs-outer .nav-tabs>li>a {
+	border: 0;
+}
+.tabs-outer .nav-tabs>li>a:hover {
+	border: 0;
+	background-color: transparent;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+	border: 0;
+	color: transparent;
+	background-color: transparent;
+}
