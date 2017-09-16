@@ -1,5 +1,5 @@
 <div id="view-profile-modal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
 
         <!-- Modal content-->
         <div class="modal-content">
@@ -21,11 +21,21 @@
                     </div>
                 </div>
                 <div class="row usr-other-info-wrap">
-                    <div class="col-md-4 col-sm-4">
-                        ghdfugyuf
+                    <div class="col-md-4 col-sm-4 usr-info-col">
+                        <div class="usr-info-title text-center">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i> Location
+                        </div>
+                        <div class="usr-info-text">
+                            201 Church Street, Matawan, Aberdeen Township, NJ 07747
+                        </div>
                     </div>
-                    <div class="col-md-4 col-sm-4">
-                        ghdfugyuf
+                    <div class="col-md-4 col-sm-4 usr-info-col">
+                        <div class="usr-info-title text-center">
+                            <i class="fa fa-credit-card" aria-hidden="true"></i> CC Info
+                        </div>
+                        <div class="usr-info-text">
+                            <span>XXXX-XXXX-XXXX-4242</span>
+                        </div>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         ghdfugyuf

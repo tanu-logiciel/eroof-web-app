@@ -7,10 +7,9 @@
 		</div>
 	</div>
 	<div class="row ep-estimates-row">
-		<div class="col-md-4 col-sm-4 ep-estimate-col-outer ep-estimate-col-outer">
+		<div class="col-md-4 col-sm-6 ep-estimate-col-outer ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
-					<p>View Proposal</p>
 					<p>
 						<span>Squares</span>
 						<span class="pull-right">49</span>
@@ -33,7 +32,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
+		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
@@ -52,7 +51,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
+		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
@@ -71,7 +70,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
+		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
@@ -90,10 +89,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
+		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
-					<p>View Proposal</p>
 					<p>
 						<span>Squares</span>
 						<span class="pull-right">49</span>
@@ -116,10 +114,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
+		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
-					<p>View Proposal</p>
 					<p>
 						<span>Squares</span>
 						<span class="pull-right">49</span>
@@ -142,10 +139,9 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
+		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
-					<p>View Proposal</p>
 					<p>
 						<span>Squares</span>
 						<span class="pull-right">49</span>
@@ -168,7 +164,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
+		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
@@ -187,7 +183,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 col-sm-4 ep-estimate-col-outer">
+		<div class="col-md-4 col-sm-6 ep-estimate-col-outer">
 			<div class="ep-estimate-col">
 				<div class="estimate-info">
 					<div class="report-awaited-text">
